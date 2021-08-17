@@ -441,20 +441,23 @@ switch (page_name) {
     case "about":
         curr_page[1] = true;
         break;
+	case "members":
+		curr_page[2] = true;
+		break;
     case "programs":
-        curr_page[2] = true;
-        break;
-    case "calendar":
         curr_page[3] = true;
         break;
-    case "resources":
+    case "calendar":
         curr_page[4] = true;
         break;
-    case "hackathon":
+    case "resources":
         curr_page[5] = true;
         break;
-    case "contact":
+    case "hackathon":
         curr_page[6] = true;
+        break;
+    case "contact":
+        curr_page[7] = true;
         break;
 }
 
@@ -477,11 +480,12 @@ output += `
             <ul class="navbar-nav ml-auto">
               <li class="nav-item ${check_page(0)}"><a href="index.html" class="nav-link">Home</a></li>
               <li class="nav-item ${check_page(1)}"><a href="about.html" class="nav-link">About</a></li>
-              <li class="nav-item ${check_page(2)}"><a href="programs.html" class="nav-link">Programs</a></li>
-              <li class="nav-item ${check_page(3)}"><a href="calendar.html" class="nav-link">Calendar</a></li>
-              <li class="nav-item ${check_page(4)}"><a href="resources.html" class="nav-link">Resources</a></li>
-              <li class="nav-item ${check_page(5)}"><a href="hackathon.html" class="nav-link">Hackathon</a></li>
-              <li class="nav-item ${check_page(6)}"><a href="contact.html" class="nav-link">Contact</a></li>
+			  <li class="nav-item ${check_page(2)}"><a href="members.html" class="nav-link">Members</a></li>
+              <li class="nav-item ${check_page(3)}"><a href="programs.html" class="nav-link">Programs</a></li>
+              <li class="nav-item ${check_page(4)}"><a href="calendar.html" class="nav-link">Calendar</a></li>
+              <li class="nav-item ${check_page(5)}"><a href="resources.html" class="nav-link">Resources</a></li>
+              <li class="nav-item ${check_page(6)}"><a href="hackathon.html" class="nav-link">Hackathon</a></li>
+              <li class="nav-item ${check_page(7)}"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
           </div>
         </div>
