@@ -8247,7 +8247,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   font-weight: 700;
   font-size: 30px;
-  font-family: "Abril Fatface", "Poppins", Arial, sans-serif;
+  font-family: "Josefin Sans", "Poppins", Arial, sans-serif;
   line-height: 1; }
   .navbar-brand span {
     display: block;
@@ -8317,7 +8317,7 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   font-weight: 700;
   letter-spacing: 0.04em;
-  font-family: "Abril Fatface", "Poppins", Arial, sans-serif; }
+  font-family: "Josefin Sans", "Poppins", Arial, sans-serif; }
   @media (max-width: 991.98px) {
     .slider-text h1 {
       font-size: 40px; } }
@@ -8330,7 +8330,7 @@ h1, h2, h3, h4, h5,
   color: rgba(255, 255, 255, 0.7); 
   color: #f19589;
   text-transform: uppercase;
-  font-family: "Abril Fatface", "Poppins", Arial, sans-serif;
+  font-family: "Josefin Sans", "Poppins", Arial, sans-serif;
   font-weight: 800; }
 
 .slider-text p {
@@ -8364,7 +8364,9 @@ h1, h2, h3, h4, h5,
           color: #f19589; }
 
 .slider-text .bread {
-  font-weight: 700 !important; }
+  font-weight: 700 !important; 
+  color: #FBF6EE;
+}
 
 .owl-carousel {
   position: relative; }
@@ -9806,7 +9808,7 @@ textarea.form-control {
 }
 
 .res-header {
-    font-family: "Abril Fatface" !important;
+    font-family: "Josefin Sans" !important;
 }
 
 .sub-nav li {
