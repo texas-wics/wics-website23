@@ -9838,3 +9838,13 @@ a.anchor {
     top: -10vh;
     visibility: hidden;
 }
+
+.remaining-width-container {
+  flex-grow: 100; 
+  position: relative;
+}
+
+.absolute-right {
+  position: absolute;
+  right: 0;
+}
