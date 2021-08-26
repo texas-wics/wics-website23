@@ -8572,6 +8572,14 @@ h1, h2, h3, h4, h5,
       .services-wrap:after {
         height: 100%; } }
 
+div.override-color-F1B994 div:nth-child(1) {
+  background: #F1B994;
+}
+
+div.override-color-ACAF8B div:nth-child(1) {
+  background: #ACAF8B;
+}
+
 .services {
   width: 100%;
   background: #CCDFDA;
