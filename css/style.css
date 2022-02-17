@@ -3428,6 +3428,15 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none; }
 
+.sched-style{
+    font-family: "Volkhov", Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #F08590; 
+    text-align: center; 
+  }
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem; }
