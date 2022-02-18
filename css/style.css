@@ -345,6 +345,24 @@ template {
 [hidden] {
   display: none !important; }
 
+.hackathon-header {
+  font-family: "Rye";
+  color: #5BB1F8 !important;
+}
+
+.hackathon-subheader {
+  font-family: "Volkhov";
+  color: #F08590 !important;
+}
+
+h1 h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit; }
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
