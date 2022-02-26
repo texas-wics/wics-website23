@@ -1735,6 +1735,9 @@ select.form-control:focus::-ms-value {
   font-size: 0.875rem;
   line-height: 1.5; }
 
+.center{
+  
+}
 .form-control-plaintext {
   display: block;
   width: 100%;
