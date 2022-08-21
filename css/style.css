@@ -8088,7 +8088,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: gray; }
+  color: #434343; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8099,10 +8099,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #f19589; }
+  color: #ee7160; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #f19589;
+    color: #ac1e23;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8371,7 +8371,7 @@ h1, h2, h3, h4, h5,
 .slider-text p {
   font-size: 18px;
   line-height: 1.5;
-  color: #707070; }
+  color: black; }
   .slider-text p strong {
     font-weight: 700; }
     .slider-text p strong a {
@@ -8502,8 +8502,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #ffeef0 !important;
-    border: 1px solid #F4BDAE !important;
+    background: white !important;
+    border: 5px solid #ffeef0 !important;
     color: #000000 !important; 
     border-radius: 30px;
   }
@@ -8617,10 +8617,10 @@ div.override-color-ACAF8B div:nth-child(1) {
 
 .services {
   width: 100%;
+  border-radius: 20px;
   background: #ee7160;
   padding: 20px;
   position: relative;
-  border-radius: 4px;
   -webkit-box-shadow: 0px 15px 34px -10px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 15px 34px -10px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 15px 34px -10px rgba(0, 0, 0, 0.09); }
@@ -8742,6 +8742,7 @@ div.override-color-ACAF8B div:nth-child(1) {
     bottom: 0;
     content: '';
     background: #ac1e23;
+    border-radius: 20px;
     opacity: 0;
     z-index: -1;
     -moz-transition: all 0.3s ease;
@@ -9047,7 +9048,7 @@ textarea.form-control {
   display: block;
   margin-bottom: 5px;
   font-weight: 500;
-  color: #434343; }
+  color: #ac1e23; }
 
 .heading-section h2 {
   font-size: 30px;
@@ -9070,6 +9071,7 @@ textarea.form-control {
 .blog-img,
 .user-img {
   width: 100%;
+  border-radius: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
