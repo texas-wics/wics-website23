@@ -8371,7 +8371,7 @@ h1, h2, h3, h4, h5,
 .slider-text p {
   font-size: 18px;
   line-height: 1.5;
-  color: black; }
+  color: #434343; }
   .slider-text p strong {
     font-weight: 700; }
     .slider-text p strong a {
@@ -8608,17 +8608,17 @@ h1, h2, h3, h4, h5,
         height: 100%; } }
 
 div.override-color-F1B994 div:nth-child(1) {
-  background: #febfa1;
+  background: #ee7160;
 }
 
 div.override-color-ACAF8B div:nth-child(1) {
-  background: #ee7160;
+  background: #febfa1;
 }
 
 .services {
   width: 100%;
   border-radius: 20px;
-  background: #ee7160;
+  background: #febfa1;
   padding: 20px;
   position: relative;
   -webkit-box-shadow: 0px 15px 34px -10px rgba(0, 0, 0, 0.09);
