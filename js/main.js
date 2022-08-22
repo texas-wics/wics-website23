@@ -393,7 +393,7 @@ output += `
                 <li><a href="./blog.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Blog</a></li>
                 <li><a href="./calendar.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Calendar</a></li>
                 <li><a href="https://forms.gle/qRaoXd5oQ4jDQtWj6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Member Registration</a></li>
-                <li><a href="https://forms.gle/d2seaEMtLpMFPsnG6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Update Resume</a></li>
+				<!--<li><a href="https://forms.gle/d2seaEMtLpMFPsnG6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Update Resume</a></li>-->
               </ul>
             </div>
           </div>
