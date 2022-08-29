@@ -390,9 +390,11 @@ output += `
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Resources</h2>
               <ul class="list-unstyled">
-                <li><a href="./blog.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Blog</a></li>
-                <li><a href="./calendar.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Calendar</a></li>
-                <li><a href="https://forms.gle/qRaoXd5oQ4jDQtWj6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Member Registration</a></li>
+			    <li><a href="https://forms.gle/qRaoXd5oQ4jDQtWj6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Discord</a></li>
+				<li><a href="https://linktr.ee/utwics" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>WiCS Link Tree</a></li>
+				<li><a href="./calendar.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Calendar</a></li>
+                <!--<li><a href="https://forms.gle/qRaoXd5oQ4jDQtWj6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Member Registration</a></li>-->
+				<li><a href="./blog.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Blog</a></li>
 				<!--<li><a href="https://forms.gle/d2seaEMtLpMFPsnG6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Update Resume</a></li>-->
               </ul>
             </div>
