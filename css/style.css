@@ -345,14 +345,22 @@ template {
 [hidden] {
   display: none !important; }
 
+.hackathon-bg {
+  background: #000000 !important;
+}
+
+.hackathon-text {
+  color: #D3C3FF !important;
+}
+
 .hackathon-header {
-  font-family: "Rye";
-  color: #5BB1F8 !important;
+  font-family: "VT323";
+  color: #FFFFFF !important;
 }
 
 .hackathon-subheader {
-  font-family: "Volkhov";
-  color: #F08590 !important;
+  font-family: "VT323";
+  color: #FFFFFF !important;
 }
 
 .coming-soon-header {
