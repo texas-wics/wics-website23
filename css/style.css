@@ -3473,7 +3473,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 1em 3em; 
   background-repeat: no-repeat;
-  background-size: 60px 20px;
+  background-size: 80px 20px;
 }
 .nav-about {
   background-image: url(/images/hackathon/navbarabout.png);
@@ -9932,12 +9932,28 @@ a.anchor {
 }
 
 .hack23-reg-btn {
-  background-size: 100% 70%; 
+  padding: 10px;
   background-position: center; 
   background-repeat: no-repeat;
   background-image: url("/images/hackathon/registrationboxbg.png");
+  background-size: 95% 70%; 
 }
 
 .hack23-claw-machine {
   background-image: url("/images/hackathon/clawmachines.png");
+  background-size: cover;
+}
+
+.hack23-img-banner {
+  padding: 10em 0px 0px 0px;
+  position: relative; }
+
+.hack23-about-section {
+  padding: 10em 0px;
+  position: relative;
+}
+
+.hack23-faq-section {
+  padding: 0em 0 10em 0;
+  position: relative;
 }
