@@ -3471,7 +3471,7 @@ input[type="button"].btn-block {
   }
 .nav-link-hackathon {
   display: block;
-  padding: 1em 3em; 
+  padding: 1em 1em; 
   background-repeat: no-repeat;
   background-size: 80px 20px;
 }
