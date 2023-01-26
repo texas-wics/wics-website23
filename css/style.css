@@ -9953,7 +9953,26 @@ a.anchor {
   position: relative;
 }
 
+.hack23-workshop-section {
+  padding: 10em 0px;
+  position: relative;
+}
+
 .hack23-faq-section {
   padding: 0em 0 10em 0;
   position: relative;
+}
+
+.grid-container {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding: 0px;
+}
+
+.grid-container > div {
+  text-align: justify;
+  padding: 10px 10px;
+  font-size: 30px;
 }
