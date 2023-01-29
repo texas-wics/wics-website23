@@ -3475,15 +3475,7 @@ input[type="button"].btn-block {
   background-repeat: no-repeat;
   background-size: 80px 20px;
 }
-.nav-about {
-  background-image: url(/images/hackathon/navbarabout.png);
-}
-.nav-faq {
-  background-image: url(/images/hackathon/navbarfaq.png);
-}
-.nav-sponsors {
-  background-image: url(/images/hackathon/navbarsponsors.png);
-}
+
 .nav-return {
   background-image: url(/images/hackathon/navbarreturn.png);
   background-size: 130px 20px;
