@@ -102,19 +102,20 @@
   url('../fonts/genty/GentyDemo-Regular.otf');
 }
 
-/* cy grotesk wide */
-@font-face {
-  font-family: 'Cy';
-  font-weight: 400;
-  src: url('../fonts/cy-grotesk/grotesk-wide-regular.ttf'),
-}
-
 /* poppins */
 @font-face {
   font-family: 'Poppins';
   font-weight: 400;
   src: url('../fonts/poppins/Poppins-Regular.ttf'),
 }
+
+/* josefin-sans-italic - latin */
+@font-face {
+  font-family: 'Cy Grotesk';
+  font-weight: 400;
+  src: url('../fonts/cy-grotesk/cy-grotesk-wide-demi.ttf'); /* IE9 Compat Modes */
+}
+
 
 
 
@@ -411,6 +412,7 @@ h3, .h3 {
   font-size: 1.75rem; }
 
 h4, .h4 {
+  font-family: 'Cy Grotesk';
   font-size: 1.5rem; }
 
 h5, .h5 {
@@ -5088,7 +5090,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #2b2d42; }
+  color: ; }
 
 .carousel {
   position: relative; }
@@ -8119,7 +8121,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Josefin Sans", "Poppins", Arial, sans-serif;
+  font-family: "Poppins";
   background: #E8DDEF;
   font-size: 16px;
   line-height: 1.8;
@@ -8151,7 +8153,7 @@ h1, h2, h3, h4, h5,
   color: #f19589 !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  background: rgba(232, 221, 239, 0.9) !important;
   position: absolute;
   top: 20px;
   left: 0;
@@ -8599,7 +8601,7 @@ div.override-color-ACAF8B div:nth-child(1) {
       font-size: 30px; }
 
   .services .text h3 {
-    font-family: Cy;
+    font-family: 'Cy Grotesk';
     font-size: 1.25rem;
     font-weight: 600; }
   .services .btn-custom {
@@ -8703,7 +8705,7 @@ div.override-color-ACAF8B div:nth-child(1) {
     right: 0;
     bottom: 0;
     content: '';
-    background: #ac1e23;
+    background: #37716C; /*sponsor card hover color*/
     border-radius: 20px;
     opacity: 0;
     z-index: -1;
@@ -8882,10 +8884,11 @@ textarea.form-control {
     color: #434343; }
     .ftco-footer .ftco-footer-widget ul li a span {
       color: #434343; }
+    /* hover color for footer*/
     .ftco-footer .ftco-footer-widget ul li a:hover {
-      color: #f19589; }
+      color: #F26A95; }
       .ftco-footer .ftco-footer-widget ul li a:hover span {
-        color: #f19589; }
+        color: #F26A95; }
   .ftco-footer .ftco-footer-widget .btn-primary {
     background: #434343 !important;
     border: 2px solid #434343 !important; }
@@ -9006,22 +9009,15 @@ textarea.form-control {
     box-shadow: 0 0 0 0 rgba(175, 169, 57, 0); } }
 
 
+/*section headers*/    
 .heading-section h2 {
+  font-family: 'Cy Grotesk';
   font-size: 30px;
   font-weight: 700; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
 
-.heading-section.heading-section-white .subheading {
-  color: rgba(255, 255, 255, 0.5); }
-
-.heading-section.heading-section-white h2 {
-  font-size: 40px;
-  color: #f1e5e6; }
-
-.heading-section.heading-section-white p {
-  color: rgba(255, 255, 255, 0.9); }
 
 .img,
 .blog-img,
@@ -9522,8 +9518,10 @@ textarea.form-control {
         font-weight: 600; }
       .block-2 .front .box p {
         font-size: 12px; }
+
+  /*officer cards*/
   .block-2 .back {
-    background: #ee7160;
+    background: #9C87BF;
     -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.4);
     -webkit-transform: rotateY(-180deg);
@@ -9676,7 +9674,7 @@ textarea.form-control {
   width: 100%;
   height: 40px;
   z-index: 9999;
-  background-color: #2B2D42;
+  background-color: #9C87BF;
   position: fixed;
   text-align: center;
   bottom: 0;
@@ -9699,7 +9697,7 @@ textarea.form-control {
 }
 
 .res-header {
-    font-family: "Josefin Sans" !important;
+    font-family: "Genty" !important;
 }
 
 .sub-nav li {
@@ -9710,7 +9708,7 @@ textarea.form-control {
   padding: 6px 16px 6px 16px;
   text-decoration: none;
   font-size: 15px;
-  color: #E0A9AC;
+  color: white;
 }
 
 .sub-nav a:hover {
