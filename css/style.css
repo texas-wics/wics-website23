@@ -8376,7 +8376,7 @@ h1, h2, h3, h4, h5,
     width: 5px;
     height: 100%;
     content: '';
-    background: #f19589;
+    background: #9C87BF;
     text-decoration: blink;
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 0.6s;
