@@ -377,7 +377,7 @@ output += `
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="logo"><a href="#"><img src="images/wics-logo-transp.png" style="width: 40%"></a></h2>
+              <h2 class="logo"><a href="#"><img src="images/wics23_light_logo.png" style="width: 40%"></a></h2>
               <p>Women in Computer Science is a non-profit organization dedicated to building a community of women in Computer Science.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class=""><a href="https://www.instagram.com/utwics/"><span class="icon-instagram"></span></a></li>
@@ -473,7 +473,7 @@ function check_page(number) {
 output = '';
 output += `
 <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="images/wics-logo-transp.png" style="width: 40%"></a>
+          <a class="navbar-brand" href="index.html"><img src="images/wics23_dark_logo.png" style="width: 30%"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
           </button>
