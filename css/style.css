@@ -116,9 +116,10 @@
   src: url('../fonts/cy-grotesk/cy-grotesk-wide-demi.ttf'); /* IE9 Compat Modes */
 }
 
-
-
-
+@font-face {
+  font-family: 'Cabin';
+  src: url('../fonts/cabin/Cabin-VariableFont_wdth\,wght.ttf');
+}
 
 html {
   font-family: sans-serif;
@@ -372,7 +373,7 @@ template {
   display: none !important; }
 
 .hackathon-bg {
-  background: #000000 !important;
+  background: #facde5 !important;
 }
 
 .hackathon-text {
@@ -9745,8 +9746,22 @@ a.anchor {
   transform: translate(-50%, -50%);
 } 
 
-.hack-23-font {
-  font-family: "VT323";
+.hack24-bartex {
+  width: 100%;
+}
+
+.hack24-text{
+  font-family: 'Cabin';
+  font-size: 30px;
+}
+
+.hack24-header{
+  font-family: 'Cabin';
+  font-size: 64px;
+}
+
+.hack24-about-section {
+  /* fill with #FFEDF6 */
 }
 
 .hack23-reg-btn {
