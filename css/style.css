@@ -116,6 +116,14 @@
   src: url('../fonts/cy-grotesk/cy-grotesk-wide-demi.ttf'); /* IE9 Compat Modes */
 }
 
+/* Bartex */
+@font-face {
+  font-family: 'Bartex';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bartex/Bartex.ttf');
+}
+
 @font-face {
   font-family: 'Cabin';
   src: url('../fonts/cabin/Cabin-VariableFont_wdth\,wght.ttf');
@@ -9746,8 +9754,38 @@ a.anchor {
   transform: translate(-50%, -50%);
 } 
 
-.hack24-bartex {
+.hack24-zigzag {
   width: 100%;
+  height: 20px;
+  background: linear-gradient(45deg, #ffedf6 25%, transparent 25%), linear-gradient(-45deg, #ffedf6 25%, transparent 25%);
+  background-size: 20px 20px;
+  position: absolute;
+}
+
+.hack24-zigzag.top {
+  top: 545px;
+}
+
+.hack24-zigzag.bottom {
+  bottom: -10;
+  transform: rotate(180deg);
+}
+
+.hack24-bartex {
+  font-family: 'Bartex';
+  width: 100%;
+  font-size: 100px;
+  font-weight: bold;
+  color: #ffffff; 
+  /* -webkit-text-stroke: 0.5px rgba(242, 0, 162, 1); */
+  text-shadow: 
+              -1px -1px 0 rgba(242, 0, 162, 1),  
+              1px -1px 0 rgba(242, 0, 162, 1),
+             -1px  1px 0 rgba(242, 0, 162, 1),
+              1px  1px 0 rgba(242, 0, 162, 1),
+              5px  5px 0 rgba(242, 0, 162, 1);
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
 }
 
 .hack24-text{
