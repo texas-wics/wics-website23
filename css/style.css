@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -9756,18 +9756,13 @@ a.anchor {
 
 .hack24-zigzag {
   width: 100%;
-  height: 20px;
+  height: 100px;
   background: linear-gradient(45deg, #ffedf6 25%, transparent 25%), linear-gradient(-45deg, #ffedf6 25%, transparent 25%);
-  background-size: 20px 20px;
-  position: absolute;
-}
-
-.hack24-zigzag.top {
-  top: 545px;
+  background-size: 100px 100px;
+  position: relative;
 }
 
 .hack24-zigzag.bottom {
-  bottom: -10;
   transform: rotate(180deg);
 }
 
@@ -9800,6 +9795,8 @@ a.anchor {
 
 .hack24-about-section {
   /* fill with #FFEDF6 */
+  position: relative;
+  background-color: #FFEDF6;
 }
 
 .hack23-reg-btn {
@@ -9820,7 +9817,7 @@ a.anchor {
   position: relative; }
 
 .hack23-about-section {
-  padding: 10em 0px;
+  padding: 5em 0em 2em 0em;
   position: relative;
 }
 
@@ -9831,6 +9828,11 @@ a.anchor {
 
 .hack23-faq-section {
   padding: 0em 0 10em 0;
+  position: relative;
+}
+
+.hack24-faq-section {
+  padding: 0em 0 0em 0;
   position: relative;
 }
 
