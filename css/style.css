@@ -9777,6 +9777,7 @@ a.anchor {
 .hack24-text{
   font-family: 'Cabin';
   font-size: 30px;
+  color: #000;
 }
 
 .hack24-header{
@@ -9797,28 +9798,28 @@ a.anchor {
 
 .top-left-flower {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 100px;
+  left: 200px;
 }
 
 .top-left-flower-small {
   position: absolute;
-  top: 250px;
-  left: 15px;
-  width: 10%;
+  top: 240px;
+  left: 100px;
+  width: 4%;
 }
 
 .bottom-right-flower {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 50px;
+  right: 50px;
 }
 
 .bottom-right-flower-small {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
-  width: 10%;
+  bottom: 240px;
+  right: 200px;
+  width: 4%;
 }
 
 /* zigzag */
@@ -9838,6 +9839,24 @@ a.anchor {
 .hack24-faq-section {
   padding: 0em 0 0em 0;
   position: relative;
+}
+
+.stars-container {
+  position: relative;
+  width: 100%;
+}
+
+.top-left-star {
+  position: absolute;
+  top: 0px;
+  right: 200px;
+}
+
+.top-left-star-small {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 5%;
 }
 
 /* hack23 */
