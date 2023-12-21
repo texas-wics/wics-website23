@@ -9859,6 +9859,82 @@ a.anchor {
   width: 5%;
 }
 
+/* footer */
+.hack24-footer {
+  font-size: 16px;
+  background: #FFEDF6;
+  padding: 5em 0 3em 0; }
+  .hack24-footer .logo {
+    font-size: 34px !important;
+    font-weight: 800 !important;
+    line-height: 1; }
+    .hack24-footer .logo a {
+      color: #f1e5e6; }
+      .hack24-footer .logo a span {
+        color: #f19589;
+        font-size: 16px !important;
+        display: block; }
+  .hack24-footer .hack24-footer-widget h2 {
+    font-weight: normal;
+    color: #BF3189;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400; }
+  .hack24-footer .hack24-footer-widget ul li a {
+    color: #434343; }
+    .hack24-footer .hack24-footer-widget ul li a span {
+      color: #434343; }
+    /* hover color for footer*/
+    .hack24-footer .hack24-footer-widget ul li a:hover {
+      color: #F26A95; }
+      .hack24-footer .hack24-footer-widget ul li a:hover span {
+        color: #F26A95; }
+  .hack24-footer .hack24-footer-widget .btn-primary {
+    background: #434343 !important;
+    border: 2px solid #434343 !important; }
+    .hack24-footer .hack24-footer-widget .btn-primary:hover {
+      background: #f1e5e6;
+      border: 2px solid #f1e5e6 !important; }
+  .hack24-footer p {
+    color: #434343; }
+  .hack24-footer a {
+    color: #434343; }
+    .hack24-footer a:hover {
+      color: #434343; }
+  .hack24-footer .hack24-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+    position: relative; }
+  .hack24-footer .opening-hours h4 {
+    color: #434343;
+    font-size: 16px; }
+  .hack24-footer .opening-hours p span {
+    color: rgba(255, 255, 255, 0.9); }
+
+.hack24-footer-social li {
+      list-style: none;
+      margin: 0 10px 0 0;
+      display: inline-block; }
+      .hack24-footer-social li a {
+        height: 50px;
+        width: 50px;
+        display: block;
+        float: left;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 50%;
+        position: relative; }
+        .hack24-footer-social li a span {
+          position: absolute;
+          font-size: 26px;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+        .hack24-footer-social li a:hover {
+          color: #f1e5e6; }
+          
 /* hack23 */
 
 .hack23-reg-btn {
