@@ -8130,12 +8130,12 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Poppins";
+  font-family: "Cabin";
   background: #E8DDEF;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #434343; }
+  color: #black; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -9755,6 +9755,12 @@ a.anchor {
 } 
 
 /* hack24 */
+.hack24-car{
+position: absolute;
+top: -180px;
+right: 10px;
+width: 50%
+}
 
 /* text */
 .hack24-bartex {
@@ -9777,7 +9783,7 @@ a.anchor {
 .hack24-text{
   font-family: 'Cabin';
   font-size: 30px;
-  color: #000;
+  color: black;
 }
 
 .hack24-header{
@@ -9859,6 +9865,20 @@ a.anchor {
   width: 5%;
 }
 
+.hack24-schedule-star {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 15%;
+}
+
+.hack24-schedule-flower {
+  position: absolute;
+  left: 450px;
+  bottom: 0px;
+  width: 20%;
+}
+
 .top-left-trio-star-smaller {
   position: absolute;
   top: 100px;
@@ -9894,6 +9914,7 @@ a.anchor {
 
 /* footer */
 .hack24-footer {
+  font-family: "Cabin";
   font-size: 16px;
   background: #FFEDF6;
   padding: 5em 0 3em 0; }
