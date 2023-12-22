@@ -9859,6 +9859,39 @@ a.anchor {
   width: 5%;
 }
 
+.top-left-trio-star-smaller {
+  position: absolute;
+  top: 100px;
+  right: 150px;
+  width: 3%;
+}
+
+.top-left-trio-star {
+  position: absolute;
+  top: 10px;
+  right: 180px;
+}
+
+.top-left-trio-star-small {
+  position: absolute;
+  top: 20px;
+  right: 300px;
+  width: 5%;
+}
+
+.top-right-star {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+}
+
+.top-right-star-small {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  width: 5%;
+}
+
 /* footer */
 .hack24-footer {
   font-size: 16px;
@@ -9934,7 +9967,77 @@ a.anchor {
           transform: translate(-50%, -50%); }
         .hack24-footer-social li a:hover {
           color: #f1e5e6; }
-          
+     
+/* sponsor-cards */
+.hack24-case {
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 0px;
+  z-index: 0;
+  position: relative;
+  -webkit-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14); }
+  .hack24-case:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #BF3189; /*sponsor card hover color*/
+    border-radius: 0px;
+    opacity: 0;
+    z-index: -1;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .hack24-case .text {
+    z-index: 1;
+    width: 100;
+    opacity: 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .hack24-case .text h3 a {
+      color: #f1e5e6;
+      font-size: 26px; }
+    .hack24-case .text span {
+      color: rgba(255, 255, 255, 0.9); }
+  .hack24-case:hover:after {
+    opacity: .9;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px; }
+  .hack24-case:hover .text {
+    opacity: 1; }
+
+.tree-container {
+  position: relative;
+  width: 100%;
+  height: 200px; 
+}
+
+/* trees */
+.tree {
+  position: absolute;
+  width: 200px;
+  bottom: -112px;
+}
+.tree1 {
+  left: 0;
+}
+
+.tree2 {
+  width: 400px;
+  right: 0;
+}
+
 /* hack23 */
 
 .hack23-reg-btn {
