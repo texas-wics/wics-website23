@@ -9867,55 +9867,55 @@ width: 50%
 
 .hack24-schedule-star {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 15%;
+  left: -3%;
+  top: -7%;
+  width: 20%;
 }
 
 .hack24-schedule-flower {
   position: absolute;
-  left: 450px;
-  bottom: 0px;
+  right: -4%;
+  bottom: -8%;
   width: 20%;
 }
 
 .top-left-trio-star-smaller {
   position: absolute;
   top: 100px;
-  right: 150px;
-  width: 3%;
+  right: 5%;
+  width: 4%;
 }
 
 .top-left-trio-star {
   position: absolute;
-  top: 10px;
-  right: 180px;
+  top: 20px;
+  right: 10%;
 }
 
 .top-left-trio-star-small {
   position: absolute;
-  top: 20px;
-  right: 300px;
+  top: 18px;
+  right: 20%;
   width: 5%;
 }
 
 .top-right-star {
   position: absolute;
-  top: 70px;
-  left: 15px;
+  top: 50px;
+  left: 3%;
 }
 
 .top-right-star-small {
   position: absolute;
-  top: 50px;
-  left: 150px;
+  top: 40px;
+  left: 14%;
   width: 5%;
 }
 
 /* footer */
 .hack24-footer {
   font-family: "Cabin";
-  font-size: 16px;
+  font-size: 20px;
   background: #FFEDF6;
   padding: 5em 0 3em 0; }
   .hack24-footer .logo {
@@ -9926,23 +9926,27 @@ width: 50%
       color: #f1e5e6; }
       .hack24-footer .logo a span {
         color: #f19589;
-        font-size: 16px !important;
+        font-size: 20px !important;
         display: block; }
   .hack24-footer .hack24-footer-widget h2 {
     font-weight: normal;
     color: #BF3189;
-    margin-bottom: 40px;
-    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
     font-weight: 400; }
   .hack24-footer .hack24-footer-widget ul li a {
-    color: #434343; }
+    color: #434343; 
+    font-size: 20px;}
     .hack24-footer .hack24-footer-widget ul li a span {
-      color: #434343; }
-    /* hover color for footer*/
+      color: #434343; 
+      font-size: 20px;
+      font-weight: normal;}
     .hack24-footer .hack24-footer-widget ul li a:hover {
-      color: #F26A95; }
+      color: #F26A95; 
+      font-size: 20px;}
       .hack24-footer .hack24-footer-widget ul li a:hover span {
-        color: #F26A95; }
+        color: #F26A95; 
+        font-size: 20px;}
   .hack24-footer .hack24-footer-widget .btn-primary {
     background: #434343 !important;
     border: 2px solid #434343 !important; }
@@ -9950,25 +9954,22 @@ width: 50%
       background: #f1e5e6;
       border: 2px solid #f1e5e6 !important; }
   .hack24-footer p {
-    color: #434343; }
+    color: #434343;
+    font-size: 20px; }
   .hack24-footer a {
-    color: #434343; }
+    color: #434343;
+    font-size: 20px; }
     .hack24-footer a:hover {
       color: #434343; }
   .hack24-footer .hack24-heading-2 {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400;
     color: #000000;
     position: relative; }
-  .hack24-footer .opening-hours h4 {
-    color: #434343;
-    font-size: 16px; }
-  .hack24-footer .opening-hours p span {
-    color: rgba(255, 255, 255, 0.9); }
 
 .hack24-footer-social li {
       list-style: none;
-      margin: 0 10px 0 0;
+      margin: 0 5px 0 0;
       display: inline-block; }
       .hack24-footer-social li a {
         height: 50px;
@@ -9988,6 +9989,13 @@ width: 50%
           transform: translate(-50%, -50%); }
         .hack24-footer-social li a:hover {
           color: #f1e5e6; }
+
+.hack24-footer .ion-ios-arrow-forward {
+  color: #BF3189 !important;
+  font-size: 20px; 
+  font-weight: bold; 
+  vertical-align: middle;
+}
      
 /* sponsor-cards */
 .hack24-case {
