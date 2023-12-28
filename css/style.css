@@ -9762,6 +9762,13 @@ right: 10px;
 width: 50%
 }
 
+.hack24-section {
+  padding: 4em 0;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .hack24-section {
+      padding: 4em 0; } }
+
 /* text */
 .hack24-bartex {
   font-family: 'Bartex';
@@ -10056,7 +10063,7 @@ width: 50%
 .tree {
   position: absolute;
   width: 200px;
-  bottom: -112px;
+  bottom: -64px;
 }
 .tree1 {
   left: 0;
