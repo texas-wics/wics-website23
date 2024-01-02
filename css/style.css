@@ -9916,6 +9916,38 @@ width: 50%
   width: 5%;
 }
 
+@media (max-width: 1200px) {
+  .top-left-star {
+    top: 0px;
+    right: 100px;
+  }
+
+  .top-left-star-small {
+    top: 100px;
+    right: 80px;
+
+  }
+}
+
+@media (max-width: 900px) {
+  .top-left-star {
+    top: 0px;
+    right: 30px;
+  }
+
+  .top-left-star-small {
+    top: 100px;
+    right: 20px;
+
+  }
+}
+
+@media (max-width: 700px) {
+  .top-left-star, .top-left-star-small {
+    display: none}
+
+}
+
 .hack24-schedule-star {
   position: absolute;
   left: -3%;
