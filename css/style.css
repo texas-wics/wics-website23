@@ -10025,6 +10025,68 @@ width: 50%
   width: 5%;
 }
 
+@media (max-width: 1200px) {
+  .top-left-trio-star{
+    top: 20px;
+    right: 7%;
+  } 
+
+  .top-left-trio-star-small{
+    top: 18px;
+    right: 18%;
+  }
+  
+  .top-left-trio-star-smaller {
+    top: 100px;
+    right: 5%;
+  }
+
+  .top-right-star{
+    top: 50px;
+    left: 3%;
+  } 
+  
+  .top-right-star-small {
+    top: 40px;
+    left: 14%;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-left-trio-star{
+    top: 100px;
+    right: 2%;
+    width: 15%;
+  } 
+
+  .top-left-trio-star-small{
+    display: none;
+  }
+  
+  .top-left-trio-star-smaller {
+    display: none;
+  }
+
+  .top-right-star {
+    top: 100px;
+    left: 2%;
+    width: 15%;
+  }
+  
+  .top-right-star-small {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-left-trio-star, .top-left-trio-star-small, .top-left-trio-star-smaller {
+    display: none;
+  }
+  .top-right-star, .top-right-star-small {
+    display: none;
+  }
+}
+
 /* footer */
 .hack24-footer {
   font-family: "Cabin";
