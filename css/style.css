@@ -9755,19 +9755,86 @@ a.anchor {
 } 
 
 /* hack24 */
+
+/* HOME */
 .hack24-car{
-position: absolute;
-top: -180px;
-right: 10px;
-width: 50%
+  position: absolute;
+  top: -180px;
+  right: 10px;
+  width: 50%
 }
 
-.hack24-section {
+.hack24-home-text{
+  font-family: 'Cabin';
+  font-size: 30px;
+  color: black;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.hack24-home-section {
   padding: 4em 0em 8em 0em;
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .hack24-section {
-      padding: 4em 0; } }
+  position: relative; 
+}
+
+.hack24-button {
+  padding: 8px 20px; 
+  margin-left: 50px;
+  background-color: #FFEDF6; 
+  color: #000000; 
+  font-size: 30px; 
+  width: 245px; 
+  height: 72px; 
+  border: none; 
+  border-radius: 12px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 2px 4px 8px rgba(242, 0, 162, 2.0); 
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .hack24-car {
+    position: relative; 
+    top: -200px;
+    right: auto;
+    width: 50%; 
+  }
+
+  .hack24-home-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .hack24-button {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hack24-car {
+    position: relative; 
+    top: -75px;
+    right: auto;
+    width: 50%; 
+  }
+}
+
+@media (max-width: 600px) {
+  .hack24-car {
+    position: relative; 
+    top: 0;
+    right: auto;
+    width: 100%; 
+  }
+}
+
+/* GENERAL */
+.hack24-section {
+  padding: 4em 0em 4em 0em;
+  position: relative; 
+}
 
 /* text */
 .hack24-bartex {
@@ -9798,7 +9865,7 @@ width: 50%
   font-size: 64px;
 }
 
-/* about */
+/* ABOUT */
 .hack24-about-section {
   position: relative;
   background-color: #FFEDF6;
@@ -9892,11 +9959,7 @@ width: 50%
   transform: rotate(180deg);
 }
 
-/* faq */
-.hack24-faq-section {
-  padding: 0em 0 0em 0;
-  position: relative;
-}
+/* FAQ */
 
 .stars-container {
   position: relative;
@@ -9947,6 +10010,8 @@ width: 50%
     display: none}
 
 }
+
+/* SCHEDULE */
 
 .hack24-schedule-star {
   position: absolute;
@@ -10087,7 +10152,7 @@ width: 50%
   }
 }
 
-/* footer */
+/* FOOTER */
 .hack24-footer {
   font-family: "Cabin";
   font-size: 20px;
@@ -10172,7 +10237,7 @@ width: 50%
   vertical-align: middle;
 }
      
-/* sponsor-cards */
+/* SPONSORS */
 .hack24-case {
   height: 300px;
   margin-bottom: 30px;
