@@ -10307,6 +10307,14 @@ a.anchor {
   right: 0;
 }
 
+/* schedule image */
+.center iframe {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
 /* hack23 */
 
 .hack23-reg-btn {
