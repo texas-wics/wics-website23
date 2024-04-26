@@ -452,14 +452,17 @@ switch (page_name) {
     case "calendar":
         curr_page[4] = true;
         break;
+	case "sponsors":
+		curr_page[5] = true;
+		break;
     case "resources":
-        curr_page[5] = true;
-        break;
-    case "hackathon":
         curr_page[6] = true;
         break;
-    case "contact":
+    case "hackathon":
         curr_page[7] = true;
+        break;
+    case "contact":
+        curr_page[8] = true;
         break;
 }
 
@@ -485,9 +488,10 @@ output += `
 			  <li class="nav-item ${check_page(2)}"><a href="members.html" class="nav-link">Members</a></li>
               <li class="nav-item ${check_page(3)}"><a href="programs.html" class="nav-link">Programs</a></li>
               <li class="nav-item ${check_page(4)}"><a href="calendar.html" class="nav-link">Calendar</a></li>
-              <li class="nav-item ${check_page(5)}"><a href="resources.html" class="nav-link">Resources</a></li>
-              <li class="nav-item ${check_page(6)}"><a href="hackathon.html" class="nav-link">Hackathon</a></li>
-              <li class="nav-item ${check_page(7)}"><a href="contact.html" class="nav-link">Contact</a></li>
+			  <li class="nav-item ${check_page(5)}"><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+              <li class="nav-item ${check_page(6)}"><a href="resources.html" class="nav-link">Resources</a></li>
+              <li class="nav-item ${check_page(7)}"><a href="hackathon.html" class="nav-link">Hackathon</a></li>
+              <li class="nav-item ${check_page(8)}"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
           </div>
         </div>
