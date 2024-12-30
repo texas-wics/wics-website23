@@ -3,13 +3,14 @@
 
 <head>
     <title>UT Austin WiCS</title>
-    <link rel="icon" href="images/wicslogo24.png">
+    <link rel="icon" href="images/hackathon25/wics_logo_25.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Volkhov&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Volkhov&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -25,15 +26,17 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </head>
 
 <body class="hackathon-bg">
 
     <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="ftco-navbar" style="background-color: #FFEDF6;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="ftco-navbar" style="background-color: #E6E1CE;">
         <a class="navbar-brand" href="https://www.cs.utexas.edu/~wics/">
-            <img src="images/hackathon24/wics_logo.svg" style="float: left;">
+            <img src="images/hackathon25/wics_logo_25.png" style="float: left; width: 100px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,18 +45,18 @@
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto" style="padding-right: 20px; display: flex; align-items: center;">
-                <li class="nav-item"><a href="hackathon.html#hack24-about" class="nav-link-hackathon"
-                        style="margin-right: 20px; color: #000000; font-size: 20px;">About</a></li>
-                <li class="nav-item"><a href="hackathon.html#hack24-faq" class="nav-link-hackathon"
-                        style="margin-right: 20px; color: #000000; font-size: 20px;">FAQ</a></li>
-                <li class="nav-item"><a href="hackathon.html#hack24-socials" class="nav-link-hackathon"
-                        style="margin-right: 20px; color: #000000; font-size: 20px;">Schedule</a></li>
-                <li class="nav-item"><a href="hackathon.html#hack24-sponsors" class="nav-link-hackathon nav-sponsors"
-                        style="margin-right: 20px; color: #000000; font-size: 20px;">Sponsors</a></li>
+                <li class="nav-item"><a href="hackathon.html#hack25-about" class="nav-link-hackathon"
+                        style="margin-right: 20px; color: #664120; font-size: 20px;">About</a></li>
+                <li class="nav-item"><a href="hackathon.html#hack25-faq" class="nav-link-hackathon"
+                        style="margin-right: 20px; color: #664120; font-size: 20px;">FAQ</a></li>
+                <li class="nav-item"><a href="hackathon.html#hack25-socials" class="nav-link-hackathon"
+                        style="margin-right: 20px; color: #664120; font-size: 20px;">Schedule</a></li>
+                <li class="nav-item"><a href="hackathon.html#hack25-sponsors" class="nav-link-hackathon nav-sponsors"
+                        style="margin-right: 20px; color: #664120; font-size: 20px;">Sponsors</a></li>
                 <li class="nav-item d-none d-lg-block">
+                    <!--update link-->
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSfYXRlVBzWDj-rPcE1rnqCPp8Iua9COkg-N_YCoSRHXS_4ptQ/viewform?usp=sf_link'
-                        target="_blank"><button
-                            style="margin-left: 20px; background-color: #FACDE5; color: #000000; font-size: 20px; width: 128px; height: 48px; border: none; border-radius: 12px; padding: 8px 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 2px 4px 8px rgba(242, 0, 162, 2.0);">
+                        target="_blank"><button class="hack25-button-nav">
                             Register
                         </button></a>
                 </li>
@@ -63,41 +66,38 @@
     <!-- END nav -->
 
     <!-- SECTION : HOME -->
-    <section class="hack24-home-section ftco-animate" id="hack-home">
-        <h1 class="hack24-bartex" style="font-family: Bartex; padding-top: 150px; text-align: center;">UT Austin WICS
-            2024</h1>
-        <div class="ftco-animate"
-            style="width: 100%; z-index: 1; display: flex; flex-wrap: wrap; align-items: flex-start;">
-            <div style="flex: 1;  display: flex; flex-direction: column; align-items: flex-start; margin-left: 20px;">
-                <h4><span class="hack24-home-text"
-                        style="color: #000000; padding-top: 30px; display: block;">February
-                        3, 2024 - February 4, 2024</span></h4>
-                <h4><span class="hack24-home-text"
-                        style="color: #000000; padding-top: 20px; padding-bottom: 30px; display: block;">Hosted
+    <section class="hack25-home-section ftco-animate" id="hack-home">
+        <h1 class="hack25-home-header" style="padding-top: 150px; text-align: center;">UT Austin WICS</h1>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="images/hackathon25/hackathon_text.png">
+        </div>
+        <h1 class="hack25-home-header" style=" text-align: center;">2025</h1>
+        <div class="ftco-animate" style="width: 100%; z-index: 1; display: flex; flex-wrap: wrap; align-items: center;">
+            <div style="flex: 1;  display: flex; flex-direction: column; align-items: center;">
+                <h4><span class="hack25-home-text"
+                        style="text-justify: center; padding-top: 30px; display: block;">February 8, 2025 - February 9,
+                        2025</span></h4>
+                <h4><span class="hack25-home-text"
+                        style="padding-top: 20px; padding-bottom: 30px; display: block;">Hosted
                         @ UT Austin Gates Dell Complex</span></h4>
                 <a href='https://docs.google.com/forms/d/e/1FAIpQLSfYXRlVBzWDj-rPcE1rnqCPp8Iua9COkg-N_YCoSRHXS_4ptQ/viewform?usp=sf_link'
-                    target="_blank"><button class="hack24-button"> Register Now</button></a>
+                    target="_blank"><button class="hack25-button"> Register Now</button></a>
             </div>
-            <img src="images/hackathon24/barbie_car.gif" class="hack24-car">
         </div>
     </section>
     <!-- END SECTION : HOME -->
 
     <!--SECTION : ABOUT -->
-    <div class="hack24-zigzag top"></div>
-    <section class="hack24-about-section ftco-animate" id="hack24-about">
-        <div class="flower-container">
-            <img src="images/hackathon24/glitter_flower.png" class="top-left-flower">
-            <img src="images/hackathon24/glitter_flower.png" class="top-left-flower-small">
-        </div>
+    <section class="hack25-about-section ftco-animate" id="hack25-about">
         <div class="text-center heading-section ftco-animate">
-            <h1 class="hack24-bartex" style="padding-top: 5%; font-family: Bartex;">About</h1>
+            <h1 class="hack25-rye" style="padding-top: 5%;">About</h1>
         </div>
+        <img src="images/hackathon25/cowgirl_about.png">
         <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true"
             style="display: flex;">
-            <p class="hack24-text" style="text-align: center; padding: 30px 22% 5% 22%; font-size: 20px; color: black">
+            <p class="hack25-text" style="text-align: center; padding: 30px 22% 5% 22%; font-size: 20px;">
                 Women in Computer Science is excited to announce that our eighth annual hackathon will be on February
-                3rd and 4th! We will have both beginner and intermediate technical workshops in the days leading up to
+                8th and 9th! We will have both beginner and intermediate technical workshops in the days leading up to
                 the hackathon and a 24-hour hackathon starting on Saturday! We'll also have various company talks and
                 time for you to meet our sponsors. WiCS Hacks is open to ALL women and non-binary students in any major.
                 All skill levels are welcome and we are beginner-friendly! At WiCS Hacks, you'll be able to learn new
@@ -105,16 +105,10 @@
                 company sponsors and engineers in industry!
             </p>
         </div>
-        <div class="flower-container">
-            <img src="images/hackathon24/glitter_flower.png" class="bottom-right-flower-small">
-            <img src="images/hackathon24/glitter_flower.png" class="bottom-right-flower">
-
-        </div>
     </section>
-    <div class="hack24-zigzag bottom"></div>
     <!--END SECTION : ABOUT -->
 
-    <!--SECTION : WORKSHOPS -->
+    <!-- SECTION : WORKSHOPS -->
     <!-- <section class="hack23-workshop-section ftco-animate" id="hack-workshop">
             <img src="images/hackathon/cloud.png" style="position: absolute; right: 0%; top: 10%; z-index: 0; "> 
             <img src="images/hackathon/cloud.png" style="position: absolute; left: 0%; top: 0%; z-index: 0; "> 
@@ -166,112 +160,178 @@
 
 
     <!--SECTION : FAQ  -->
-    <section class="hack24-section ftco-animate" id="hack24-faq">
+    <section class="hack25-section ftco-animate" id="hack25-faq"
+        style="background-image: url('images/hackathon25/faq_bg.png')">
+        <div class="hack25-transparent-section">
         <div class="container mt-xl-3 pt-xl-1">
-            <div class="text-center">
-                <!-- <img src="images/hackathon24/faq.png">  -->
-                <h1 class="hack24-bartex" style="font-family: Bartex;">FAQ'S</h1>
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="text-center">
+                            <h1 class="hack25-rye">FAQ'S</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-3">
+                        <div class="hack25-faq" id="accordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="mb-0">
+                                        <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-1"
+                                            data-aria-expanded="true" data-aria-controls="faq-1">
+                                            <span class="badge">1</span>When is WiCS Hacks?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faq-1" class="collapse" aria-labelledby="faq-heading-1"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>February 8th - February 9th, 2025!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faq-heading-2">
+                                    <div class="mb-0">
+                                        <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-2"
+                                            data-aria-expanded="false" data-aria-controls="faq-2">
+                                            <span class="badge">2</span> Who can attend?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faq-2" class="collapse" aria-labelledby="faq-heading-2"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>All women and non-binary students above the age of 18 (including high school
+                                            students!) are welcome to attend!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faq-heading-3">
+                                    <div class="mb-0">
+                                        <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-3"
+                                            data-aria-expanded="false" data-aria-controls="faq-3">
+                                            <span class="badge">3</span>Where will WiCS Hacks be held?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faq-3" class="collapse" aria-labelledby="faq-heading-3"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>WiCS Hacks will be hosted in-person in the UT Austin Gates Dell Complex!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faq-heading-4">
+                                    <div class="mb-0">
+                                        <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-4"
+                                            data-aria-expanded="false" data-aria-controls="faq-4">
+                                            <span class="badge">4</span> Do I have to attend both days of the hackathon
+                                            or
+                                            any particular workshops?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faq-4" class="collapse" aria-labelledby="faq-heading-4"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Nope! You aren't required to attend both days, and it's up to you which
+                                            workshops
+                                            you want to go to. However, if you are submitting a project, you must be
+                                            present
+                                            in person for judging on Sunday.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faq-heading-5">
+                                    <div class="mb-0">
+                                        <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-5"
+                                            data-aria-expanded="false" data-aria-controls="faq-5">
+                                            <span class="badge">5</span> How much will this cost me?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faq-5" class="collapse" aria-labelledby="faq-heading-5"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p> Nothing! It's completely free! WiCS provides students with swag, virtual
+                                            workspace, and prizes for all of our events!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faq-heading-6">
+                                    <div class="mb-0">
+                                        <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-6"
+                                            data-aria-expanded="false" data-aria-controls="faq-6">
+                                            <span class="badge">6</span> What projects can I work on?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faq-6" class="collapse" aria-labelledby="faq-heading-6"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Whatever you'd like. Software, hardware, design, music, art, animation — take
+                                            your pick. We will reveal the prize categories at the start of the
+                                            hackathon.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="faq-heading-7">
+                                    <div class="mb-0">
+                                        <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-7"
+                                            data-aria-expanded="false" data-aria-controls="faq-7">
+                                            <span class="badge">7</span> How will teams work?
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div id="faq-7" class="collapse" aria-labelledby="faq-heading-7"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Teams should be groups of up to 4 students. You can also work alone, but we
+                                            encourage collaborating with the other great minds at WiCS Hacks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div style="width: 100%; font-size: 20px; padding-left: 5%; padding-right: 5% " class="hack24-faq-text">
-                <b>
-                    <p>Q: When is WiCS Hacks?</p>
-                </b>
-                <p>A: February 3rd - February 4th, 2024!</p>
-                <b>
-                    <p>Q: Who can attend?</p>
-                </b>
-                <p>A: All women and non-binary students above the age of 18 (including high school students!) are
-                    welcome to attend!</p>
-                <b>
-                    <p>Q: Where will WiCS Hacks be held?</p>
-                </b>
-                <p>A: WiCS Hacks will be hosted in-person in the UT Austin Gates Dell Complex!</p>
-                <b>
-                    <p>Q: Do I have to attend both days of the hackathon or any particular workshops?</p>
-                </b>
-                <p>A: Nope! You aren't required to attend both days, and it's up to you which workshops you want to go
-                    to. However, if you are submitting a project, you must be present in person for judging on Sunday.
-                </p>
-                <b>
-                    <p>Q: How much will this cost me?</p>
-                </b>
-                <p>A: Nothing! It's completely free! WiCS provides students with swag, virtual workspace, and prizes for
-                    all of our events!</p>
-                <b>
-                    <p>Q: What projects can I work on?</p>
-                </b>
-                <p>A: Whatever you'd like. Software, hardware, design, music, art, animation — take your pick. We will
-                    reveal the prize categories at the start of the hackathon.</p>
-                <b>
-                    <p>Q: How will teams work?</p>
-                </b>
-                <p>A: Teams should be groups of up to 4 students. You can also work alone, but we encourage
-                    collaborating with the other great minds at WiCS Hacks.</p>
-            </div>
-            <img src="images/hackathon24/left_squiggle.png" class="faq-squiggle-left">
-            <img src="images/hackathon24/right_squiggle.png" class="faq-squiggle-right">
         </div>
     </section>
-    <!--END SECTION : FAQ -->
 
-    <!--SECTION : SCHEDULE + SOCIAL MEDIA -->
-    <section class="hack24-section" id="hack24-socials">
-        <div class="stars-container">
-            <img src="images/hackathon24/glitter_star.png" class="top-left-star">
-            <img src="images/hackathon24/glitter_star.png" class="top-left-star-small">
+    </div>
+    </section>
+    <!--BEGIN SECTION : SCHEDULE -->
+    <section class="hack25-section" id="hack25-schedule">
+        <div class="hack25-image-section">
+            <div class="text-center container mt-xl-3 pt-xl-5">
+                <h1 class="hack25-rye" style="">Schedule</h1>
+            </div>
         </div>
-        <div class="text-center container mt-xl-3 pt-xl-5">
-            <!-- <img src="images/hackathon24/schedule.png">  -->
-            <h1 class="hack24-bartex" style="font-family: Bartex;">Schedule</h1>
-            <div class="">
-                <!-- <div class="row no-gutters align-items-center justify-content-start" data-scrollax-parent="true" -->
-                    <!-- style="display: flex;"> -->
-                    <!-- <div class="remaining-width-container" style="position: relative; z-index: 2;"> -->
-                        <!-- <img src="images/hackathon/WiCS Hacks 23 Flyer 1.png"> -->
-                        <p style="text-align: center; align-items: center">
-                            <iframe style="width:100%; height:1000px; border:none; background: #FFFFFF;" src="https://docs.google.com/document/d/e/2PACX-1vTMhhj83QHGOXyV1cVe9INR7aSk9DdMIzYmxcbDOeVIhoWD4KouBdLUpidekd6HW5ydmereuNUNT_OC/pub?embedded=true"></iframe>
-                        </p>
-                        <!-- <p class="hack24-text" style="color: #BF3189; font-size: 80px;">Coming Soon!</p> -->
-                        <!-- <img src="images/hackathon24/glitter_star.png" class="hack24-schedule-star"> -->
-                        <!-- <img src="images/hackathon24/glitter_flower.png" class="hack24-schedule-flower"> -->
-                    <!-- </div> -->
-                    <!-- <div class="col-lg-5 ftco-animate hackathon-header"> -->
-                        <p class="hack24-text">Follow us on our social</p>
-                        <p class="hack24-text"> media to stay updated!</p>
-                        <a href="https://www.instagram.com/utwics/">
-                            <img alt="W3Schools" src="images/hackathon24/insta_logo.png "
-                                style="margin: 20px 20px 100px 20px;">
-                        </a>
-                        <a href="">
-                            <img alt="W3Schools" src="images/hackathon24/discord_logo.png"
-                                style="margin: 20px 20px 100px 20px;">
-                        </a>
-                        <a href="https://linktr.ee/utwics">
-                            <img alt="W3Schools" src="images/hackathon24/linktree_logo.png"
-                                style="margin: 20px 20px 100px 20px;">
-                        </a>
-                    <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div> -->
         </div>
     </section>
     <!--END SECTION : SCHEDULE -->
 
     <!--SECTION : SPONSORS  -->
-    <section class="hack24-section" id="hack24-sponsors">
+    <section class="hack25-section" id="hack25-sponsors" style="background-color: #DFF0F8;">
         <div class="text-center mt-xl-2 pt-xl-2 heading-section ftco-animate">
-            <!-- <img src="images/hackathon24/sponsors.png">  -->
-            <h1 class="hack24-bartex" style="font-family: Bartex;">Sponsors</h1>
-            <p class="hackathon24-text" style="font-size: 25px;">A big thanks to all our corporate sponsors!</p>
+            <h1 class="hack25-rye" style="color: white">SPONSORS</h1>
+            <p class="hack25-text" style="color: white; font-size: 25px;">A big thanks to all our corporate sponsors!
+            </p>
         </div>
         <!-- PLATINUM SPONSORS -->
         <div class="text-center heading-section ftco-animate" style="padding-top: 20px; padding-bottom: 20px;">
-            <h3 style="color:#BF3189 !important; font-size: 60px" class="hack24-header style">Platinum Sponsors</h3>
+            <h3 style="color:#BF3189 !important; font-size: 60px" class="hack25-header style">Platinum Sponsors</h3>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/Deloitte.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important"
@@ -280,7 +340,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/janestreet.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.janestreet.com/">Jane Street</a>
@@ -289,7 +349,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center object-fit-contain"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center object-fit-contain"
                         style="background-image: url(images/sponsors/lockheed.jpg);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important"
@@ -300,21 +360,14 @@
                 </div>
             </div>
         </div>
-        <div class="stars-container">
-            <img src="images/hackathon24/glitter_star.png" class="top-left-trio-star-smaller">
-            <img src="images/hackathon24/glitter_star.png" class="top-left-trio-star">
-            <img src="images/hackathon24/glitter_star.png" class="top-left-trio-star-small">
-            <img src="images/hackathon24/glitter_star.png" class="top-right-star">
-            <img src="images/hackathon24/glitter_star.png" class="top-right-star-small">
-        </div>
         <!-- GOLD SPONSORS -->
         <div class="text-center heading-section ftco-animate" style="padding-top: 100px; padding-bottom: 20px">
-            <h3 style="color:#BF3189 !important;" class="hack24-header" style="font-size: 60px;">Gold Sponsors</h3>
+            <h3 style="color:#BF3189 !important;" class="hack25-header" style="font-size: 60px;">Gold Sponsors</h3>
         </div>
         <div class="container" style="z-index: 1">
             <div class="row">
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/atlassian.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.atlassian.com/">Atlassian</a>
@@ -323,7 +376,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/bloomberg.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.bloomberg.com/">Bloomberg</a>
@@ -332,7 +385,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/bp.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.bp.com/">BP</a></h3>
@@ -340,7 +393,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/CapitalOne.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.capitalone.com/">Capital One</a>
@@ -349,7 +402,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/chevron.jpg);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.chevron.com/">Chevron</a></h3>
@@ -357,7 +410,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/citadel.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.citadel.com/">Citadel</a></h3>
@@ -365,7 +418,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/DEShawAndCo.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.deshaw.com/">D. E. Shaw
@@ -374,7 +427,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/draftkings.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.draftkings.com/">Draft Kings</a>
@@ -383,7 +436,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/goldman.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.goldmansachs.com/">Goldman
@@ -392,7 +445,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/google.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://about.google/">Google</a></h3>
@@ -400,7 +453,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/heb.jpg);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.heb.com/">H-E-B</a></h3>
@@ -408,7 +461,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/hrt.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.hudsonrivertrading.com/">Hudson
@@ -417,7 +470,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/meta.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://about.facebook.com/">Meta</a></h3>
@@ -425,7 +478,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/reddit.svg);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.redditinc.com/">Reddit</a></h3>
@@ -433,7 +486,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/Roblox.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://corp.roblox.com/">Roblox</a></h3>
@@ -441,7 +494,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/home_depot.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://careers.homedepot.com/">The Home
@@ -450,7 +503,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/trade_desk.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.thetradedesk.com/us">The Trade
@@ -459,7 +512,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="hack24-case img d-flex align-items-center justify-content-center"
+                    <div class="hack25-case img d-flex align-items-center justify-content-center"
                         style="background-image: url(images/sponsors/two-sigma-logo.png);">
                         <div class="text text-center">
                             <h3><a style="font-size: 42px !important" href="https://www.twosigma.com/">Two Sigma</a>
@@ -469,26 +522,21 @@
                 </div>
             </div>
         </div>
-
-        <div class="tree-container" style="z-index: -1">
-            <img src="images/hackathon24/single_palm_tree.png" class="tree tree1">
-            <img src="images/hackathon24/double_palm_tree.png" class="tree tree2">
-        </div>
-
     </section>
     <!--END SECTION : SPONSORS -->
 
     <!-- /footer> -->
-    <footer class="hack24-footer">
+    <footer class="hack25-footer">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md">
-                    <div class="hack24-footer-widget mb-4">
-                        <h2 class="logo"><a href="#"><img src="images/hackathon24/wics_logo.svg" style="width: 40%"></a>
+                    <div class="hack25-footer-widget mb-4">
+                        <h2 class="logo"><a href="#"><img src="images/hackathon25/wics_logo_25.png"
+                                    style="width: 250px"></a>
                         </h2>
                         <p>Women in Computer Science is a non-profit organization dedicated to building a community of
                             women in Computer Science.</p>
-                        <ul class="hack24-footer-social list-unstyled float-md-left float-lft mt-5">
+                        <ul class="hack25-footer-social list-unstyled float-md-left float-lft mt-5">
                             <li class=""><a href="https://www.instagram.com/utwics/"><img alt="Instagram"
                                         src="images/hackathon24/insta_logo.png " style=" width: 70%"></a></li>
                             <li class=""><a href="https://twitter.com/texaswics"><img alt="Twitter"
@@ -503,8 +551,8 @@
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="hack24-footer-widget mb-4 ml-md-5">
-                        <h2 class="hack24-heading-2">Resources</h2>
+                    <div class="hack25-footer-widget mb-4 ml-md-5">
+                        <h2 class="hack25-heading-2">Resources</h2>
                         <ul class="list-unstyled">
                             <li><a href="https://www.cs.utexas.edu/~wics/" class="py-1 d-block"><span
                                         class="ion-ios-arrow-forward mr-3"></span>WiCS Website</a></li>
@@ -514,8 +562,8 @@
                     </div>
                 </div>
                 <div class="col-md">
-                    <div class="hack24-footer-widget mb-4">
-                        <h2 class="hack24-heading-2">Have a Question?</h2>
+                    <div class="hack25-footer-widget mb-4">
+                        <h2 class="hack25-heading-2">Have a Question?</h2>
                         <div class="block-23 mb-3">
                             <ul>
                                 <li><img src="images/hackathon24/maptag_logo.png " style="width: 70%"><span
