@@ -14633,8 +14633,9 @@ a.anchor {
   font-size: 20px;
   width: 139px;
   height: 64px;
-  border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 2px 4px 8px rgba(0, 0, 0, 0.1);
+  outline: 5px solid #27d9b4;
+  border: 1px solid #fff;
   mask: radial-gradient(15px at 40px 40px, transparent 98%, black) -40px -40px;
 }
 
@@ -14692,6 +14693,50 @@ a.anchor {
   }
 }
 
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.boot-container {
+  width: 500px; 
+}
+
+.boot {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  text-align: center;
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.text-container img {
+  max-width: 500px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+  .boot-container {
+    margin: 10px 0;
+  }
+}
+
 /* GENERAL */
 .hack25-section {
   padding: 4em 0em 4em 0em;
@@ -14737,7 +14782,7 @@ a.anchor {
   padding: 30px;
   justify-self: center;
   align-self: center;
-  border-radius: 15px; 
+  mask: radial-gradient(40px at 40px 40px, transparent 98%, black) -40px -40px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
   text-align: center;
 }
@@ -14984,19 +15029,19 @@ a.anchor {
   right: 0;
   bottom: 0;
   content: '';
-  background: #BF3189;
-  /*sponsor card hover color*/
+  background-image: url("/images/hackathon25/badge.png");
+  background-color: #2E4156;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: contain; 
   border-radius: 0px;
   opacity: 0;
   z-index: -1;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .hack25-case .text {
+  font-family: 'Space Mono', monospace;
   z-index: 1;
   width: 100;
   opacity: 0;
@@ -15008,11 +15053,13 @@ a.anchor {
 }
 
 .hack25-case .text h3 a {
+  font-family: 'Space Mono', monospace;
   color: #f1e5e6;
   font-size: 26px;
 }
 
 .hack25-case .text span {
+  font-family: 'Space Mono', monospace;
   color: rgba(255, 255, 255, 0.9);
 }
 
