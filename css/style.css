@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -482,7 +482,7 @@ template {
 }
 
 .hackathon-bg {
-  background: #2E4156 !important;
+  background: #2A3E55 !important;
 }
 
 .hackathon-text {
@@ -12688,6 +12688,74 @@ textarea.form-control {
   font-size: 24px;
 }
 
+.about-section {
+  background-color: #dceefb; /* Light blue background */
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+.heading-section {
+  margin-bottom: 20px;
+}
+
+.about-title {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Rye'; /* Custom font */
+  color: #2A3E55; /* Dark blue color */
+}
+
+.about-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 10%;
+}
+
+.about-text {
+  background-color: #ffe9c5; /* Beige box background */
+  border: 5px solid #fff; /* Border to match the theme */
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 18px;
+  text-align: justify;
+  color: #333;
+  width: 70%;
+}
+
+.cowgirl-image img {
+  position: absolute;
+  right: 7%;
+  bottom: 5%;
+  height: 400px;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .about-content-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .cowgirl-image img {
+      position: static;
+      margin-top: 20px;
+      height: 200px;
+  }
+
+  .about-text {
+      width: 90%;
+  }
+}
+
+
 .ftco-section {
   padding: 7em 0;
   position: relative;
@@ -14717,6 +14785,18 @@ a.anchor {
   height: auto;
 }
 
+@media (max-width: 800px) {
+
+  .boot-container {
+    width: 150px; 
+  }
+  
+  .boot {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .text-container {
   text-align: center;
   flex-grow: 1;
@@ -14773,6 +14853,7 @@ a.anchor {
 /* ABOUT */
 .hack25-about-section {
   position: relative;
+  padding-bottom: 10%;
 }
 
 /* FAQ */
@@ -14879,6 +14960,36 @@ a.anchor {
   }
 }
 
+#hack25-sponsors {
+  background-color: #2E4156;
+  padding: 50px 0;
+}
+
+.sponsors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
+
+.badge-img {
+  width: 80px; 
+}
+
+.text-content {
+  text-align: center;
+}
+
+.text-content h1 {
+  color: white;
+  font-size: 48px;
+}
+
+.text-content p {
+  color: white;
+  font-size: 20px;
+}
+
 
 /* SCHEDULE */
 
@@ -14904,51 +15015,51 @@ a.anchor {
 }
 
 .hack25-footer .logo a {
-  color: #f1e5e6;
+  color: #2A3E55;
 }
 
 .hack25-footer .logo a span {
-  color: #f19589;
+  color: #2A3E55;
   font-size: 20px !important;
   display: block;
 }
 
 .hack25-footer .hack25-footer-widget h2 {
   font-weight: normal;
-  color: #BF3189;
+  color: #2A3E55;
   margin-bottom: 10px;
   font-size: 32px;
   font-weight: 400;
 }
 
 .hack25-footer .hack25-footer-widget ul li a {
-  color: #434343;
+  color: #2A3E55;
   font-size: 20px;
 }
 
 .hack25-footer .hack25-footer-widget ul li a span {
-  color: #434343;
+  color: #2A3E55;
   font-size: 20px;
   font-weight: normal;
 }
 
 .hack25-footer .hack25-footer-widget ul li a:hover {
-  color: #F26A95;
+  color: #9C606D;
   font-size: 20px;
 }
 
 .hack25-footer .hack25-footer-widget ul li a:hover span {
-  color: #F26A95;
+  color: #2A3E55;
   font-size: 20px;
 }
 
 .hack25-footer .hack25-footer-widget .btn-primary {
-  background: #434343 !important;
+  background: #2A3E55 !important;
   border: 2px solid #434343 !important;
 }
 
 .hack25-footer .hack25-footer-widget .btn-primary:hover {
-  background: #f1e5e6;
+  background: #2A3E55;
   border: 2px solid #f1e5e6 !important;
 }
 
@@ -14963,13 +15074,13 @@ a.anchor {
 }
 
 .hack25-footer a:hover {
-  color: #434343;
+  color: #2A3E55;
 }
 
 .hack25-footer .hack25-heading-2 {
   font-size: 20px;
   font-weight: 400;
-  color: #000000;
+  color: #2A3E55;
   position: relative;
 }
 
