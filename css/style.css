@@ -12684,12 +12684,19 @@ textarea.form-control {
   background: #f19589 !important;
 }
 
+.about-title {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Rye';
+  color: #2A3E55;
+}
+
 .about-author .desc h3 {
   font-size: 24px;
 }
 
 .about-section {
-  background-color: #dceefb; /* Light blue background */
+  background-color: #dceefb; 
   font-family: 'Arial', sans-serif;
   position: relative;
 }
@@ -12701,60 +12708,58 @@ textarea.form-control {
 .about-title {
   font-size: 48px;
   font-weight: bold;
-  font-family: 'Rye'; /* Custom font */
-  color: #2A3E55; /* Dark blue color */
+  font-family: 'Rye';
+  color: #2A3E55;
+}
+
+.about-section {
+  background-color: #dceefb; 
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  padding: 50px 0;
 }
 
 .about-content-container {
   display: flex;
-  align-items: center;
   justify-content: center;
   position: relative;
   padding: 20px 10%;
 }
 
 .about-text {
-  background-color: #ffe9c5; /* Beige box background */
-  border: 5px solid #fff; /* Border to match the theme */
+  background-color: #ffe9c5;
+  border: 5px solid #fff;
   border-radius: 15px;
-  padding: 20px;
+  padding: 40px 60px; 
   font-size: 18px;
   text-align: justify;
   color: #333;
   width: 70%;
+  position: relative;
 }
 
 .cowgirl-image img {
   position: absolute;
-  right: 7%;
-  bottom: 5%;
-  height: 400px;
-  z-index: 1;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  right: 20px;
+  bottom: 0;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
-  .about-content-container {
-      flex-direction: column;
-      text-align: center;
-  }
-
   .cowgirl-image img {
-      position: static;
-      margin-top: 20px;
-      height: 200px;
+    display: none;
   }
 
   .about-text {
-      width: 90%;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .about-content-container {
+    flex-direction: column;
+    text-align: center;
   }
 }
-
 
 .ftco-section {
   padding: 7em 0;
@@ -14998,6 +15003,24 @@ a.anchor {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
+}
+
+.line-and-stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.line {
+  width: 90%;
+  height: 6px;
+  background-color: #565C8A;
+  margin-bottom: -10px;
+}
+
+.stars img {
+  width: 90%; /* Adjust size of stars as needed */
 }
 
 /* FOOTER */
