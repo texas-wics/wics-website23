@@ -12740,15 +12740,18 @@ textarea.form-control {
 
 .cowgirl-image img {
   position: absolute;
-  right: 20px;
+  right: 150px;
   bottom: 0;
   height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1565px) {
   .cowgirl-image img {
     display: none;
   }
+}
+
+@media (max-width: 780px) {
 
   .about-text {
     width: 90%;
@@ -14834,7 +14837,7 @@ a.anchor {
   font-family: 'Rye';
   width: 100%;
   font-size: 40px;
-  color: #4B548B;
+  color: #2A3E55;
   text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
