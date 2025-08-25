@@ -5432,12 +5432,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #cfe2ff;
+  color: #9a8bc3;
 }
 
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-  color: #cfe2ff;
+  color: #9a8bc3;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -5457,7 +5457,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #cfe2ff;
+  color: #9a8bc3;
 }
 
 .navbar-dark .navbar-toggler {
@@ -5474,12 +5474,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text a {
-  color: #cfe2ff;
+  color: #9a8bc3;
 }
 
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #cfe2ff;
+  color: #9a8bc3;
 }
 
 .card {
@@ -11670,13 +11670,13 @@ a.text-dark:focus {
   }
 }
 
+/*COLOR: to change main color*/
 body {
   font-family: "Cabin";
-  background: #f8D1DE;
+  background: #f2ece1;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #black;
 }
 
 body.menu-show {
@@ -11686,11 +11686,12 @@ body.menu-show {
   width: 100%;
 }
 
+/* TO COLOR: to change color of link text */
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #fdebf1;
+  color: #87bff2;
 }
 
 a:hover,
@@ -11699,18 +11700,24 @@ a:focus {
   outline: none !important;
 }
 
+/*TO COLOR: to change header text titles on all pages*/
 h1,
 h2,
+.h1,
+.h2 {
+  line-height: 1.5;
+  color: #3143a5;
+  font-weight: 400;
+}
+
 h3,
 h4,
 h5,
-.h1,
-.h2,
 .h3,
 .h4,
 .h5 {
   line-height: 1.5;
-  color: white;
+  color: #f2ece1;
   font-weight: 400;
 }
 
@@ -11718,8 +11725,9 @@ h5,
   color: #f19589 !important;
 }
 
+/*TO COLOR: change color of navbar here */
 .ftco-navbar-light {
-  background: rgba(248, 209, 218, 0.9) !important;
+  background: rgba(124, 146, 188, 1) !important;
   position: absolute;
   top: 20px;
   left: 0;
@@ -11729,7 +11737,7 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #f8D1DE !important;
+    background: #7c92bc !important;
     position: relative;
     top: 0;
   }
@@ -11757,13 +11765,13 @@ h5,
   padding-bottom: .9rem;
   padding-left: 20px;
   padding-right: 20px;
-  color: #434343;
+  color: #f2ece1;
   font-weight: 400;
   opacity: 1 !important;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-  color: #E5A8B3;
+  color: #fbeeb1;
 }
 
 @media (max-width: 991.98px) {
@@ -11832,8 +11840,8 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.cta>a:hover {
-  background: #f8D1DE;
-  border: 1px solid #f8D1DE;
+  background: #7c92bc;
+  border: 1px solid #7c92bc;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.cta.cta-colored a {
@@ -11841,8 +11849,9 @@ h5,
   background: #2c2f3a !important;
 }
 
+/* TO COLOR: to change color of selected tab on navbar */
 .ftco-navbar-light .navbar-nav>.nav-item.active>a {
-  color: #F0758A;
+  color: #fccfd3;
 }
 
 .ftco-navbar-light .navbar-toggler {
@@ -11858,7 +11867,7 @@ h5,
 .ftco-navbar-light .navbar-toggler:hover,
 .ftco-navbar-light .navbar-toggler:focus {
   text-decoration: none;
-  color: #f19589;
+  color: #fbeeb1;
   outline: none !important;
 }
 
@@ -11868,7 +11877,7 @@ h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #f8D1DE !important;
+  background: #7c92bc !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
@@ -11881,13 +11890,17 @@ h5,
   }
 }
 
+/* TO COLOR: change color of navbar when scrolling */
 .ftco-navbar-light.scrolled .nav-item.active>a {
-  color: #F0758A !important;
+  color: #fccfd3 !important;
+}
+
+.ftco-navbar-light.scrolled .navbar-nav>.nav-item>.nav-link:hover {
+  color: #fbeeb1 !important;
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta>a {
   color: #fff !important;
-  background: #f19589;
   border: none !important;
   padding-top: 0.5rem !important;
   padding-bottom: .5rem !important;
@@ -11902,11 +11915,11 @@ h5,
 
 .ftco-navbar-light.scrolled .nav-item.cta>a span {
   display: inline-block;
-  color: #f1e5e6 !important;
+  color: #fbeeb1 !important;
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-  border-color: #f19589;
+  border-color: #fbeeb1;
 }
 
 @media (max-width: 991.98px) {
@@ -11932,7 +11945,7 @@ h5,
 .ftco-navbar-light.scrolled .nav-link {
   padding-top: 0.9rem !important;
   padding-bottom: 0.9rem !important;
-  color: #000000 !important;
+  color: #f2ece1 !important;
 }
 
 .ftco-navbar-light.scrolled .nav-link.active {
@@ -11979,7 +11992,7 @@ h5,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  background-color: #f8D1DE;
+  background-color: #f2ece1;
 
   position: relative;
 }
@@ -12035,7 +12048,7 @@ h5,
   width: 5px;
   height: 100%;
   content: '';
-  background: #FFF1F6;
+  background: #87bff2; /* COLOR: to change cursor on home */
   text-decoration: blink;
   -webkit-animation-name: blinker;
   -webkit-animation-duration: 0.6s;
@@ -12045,9 +12058,9 @@ h5,
 }
 
 .slider-text h1 {
-  /* -webkit-text-stroke: 0.01px #E5A8B3; */
+  /* -webkit-text-stroke: 0.01px #3143a5; */
   font-size: 48px;
-  color: #FFFBF6;
+  color: #3143a5; /*TO COLOR: to change women in cs are text on home*/
   line-height: 1.5;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -12060,8 +12073,9 @@ h5,
   }
 }
 
+/* to COLOR: main cursor blinking text on home page color*/
 .slider-text h1 span {
-  color: #F0758A;
+  color: #87bff2;
 }
 
 
@@ -12157,17 +12171,18 @@ h5,
   outline: none;
 }
 
+/* TO COLOR: to change main learn more button on home page*/
 .btn.btn-primary {
-  background: #fdebf1 !important;
-  border: 5px solid #F0758A !important;
-  color: #F0758A !important;
+  background: #fbeeb1 !important;
+  border: 5px solid #6c975b !important;
+  color: #3143a5 !important;
   border-radius: 30px;
 }
 
 .btn.btn-primary:hover {
-  border: 1px solid #F26A95;
-  background: transparent;
-  color: #F26A95;
+  border: 1px solid #87bff2;
+  background: #c4deb1;
+  color: #c4deb1;
 }
 
 .btn.btn-primary.btn-outline-primary {
@@ -12258,7 +12273,7 @@ h5,
 .tabulation-2 .nav-pills .nav-item .nav-link {
   background: #f1e5e6;
   border-radius: 4px;
-  color: #000000;
+  color: #87bff2;
   font-weight: 600;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -12306,23 +12321,24 @@ h5,
   }
 }
 
-div.override-color-F0758A div:nth-child(1) {
-  background: #F0758A;
+/* TO COLOR: use these to change colors of cards on what we do section under home page*/
+div.override-color-d2674e div:nth-child(1) {
+  background: #d2674e;
 }
 
-div.override-color-F1B994 div:nth-child(1) {
-  background: #CFE2FF;
+div.override-color-6c975b div:nth-child(1) {
+  background: #6c975b;
 }
 
 
-div.override-color-E5A8B3 div:nth-child(1) {
-  background: #E5A8B3;
+div.override-color-9a8bc3 div:nth-child(1) {
+  background: #9a8bc3;
 }
 
 .services {
   width: 100%;
   border-radius: 20px;
-  background: #f8D1DE;
+  background: #f2ece1;
   padding: 20px;
   position: relative;
   -webkit-box-shadow: 0px 15px 34px -10px rgba(0, 0, 0, 0.09);
@@ -12489,7 +12505,7 @@ div.override-color-E5A8B3 div:nth-child(1) {
   right: 0;
   bottom: 0;
   content: '';
-  background: #F0758A;
+  background: #6c975b;
   /*sponsor card hover color*/
   border-radius: 20px;
   opacity: 0;
@@ -12787,9 +12803,10 @@ textarea.form-control {
   padding-bottom: 0 !important;
 }
 
+/* TO COLOR: to change footer background color */
 .ftco-footer {
   font-size: 16px;
-  background: #FFFBF6;
+  background: #7c92bc;
   padding: 5em 0 3em 0;
 }
 
@@ -12800,43 +12817,44 @@ textarea.form-control {
 }
 
 .ftco-footer .logo a {
-  color: #f1e5e6;
+  color: #f2ece1;
 }
 
 .ftco-footer .logo a span {
-  color: #f19589;
+  color: #f2ece1;
   font-size: 16px !important;
   display: block;
 }
 
+/* TO COLOR: to change footer header text */
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
-  color: #E5A8B3;
+  color: #fccfd3;
   margin-bottom: 40px;
   font-size: 20px;
   font-weight: 400;
 }
 
 .ftco-footer .ftco-footer-widget ul li a {
-  color: #434343;
+  color: #f2ece1;
 }
 
 .ftco-footer .ftco-footer-widget ul li a span {
-  color: #434343;
+  color: #fbeeb1;
 }
 
-/* hover color for footer*/
+/* TO COLOR: hover color for footer*/
 .ftco-footer .ftco-footer-widget ul li a:hover {
-  color: #F26A95;
+  color: #87bff2;
 }
 
 .ftco-footer .ftco-footer-widget ul li a:hover span {
-  color: #F26A95;
+  color: #87bff2;
 }
 
 .ftco-footer .ftco-footer-widget .btn-primary {
-  background: #434343 !important;
-  border: 2px solid #434343 !important;
+  background: #87bff2 !important;
+  border: 2px solid #87bff2 !important;
 }
 
 .ftco-footer .ftco-footer-widget .btn-primary:hover {
@@ -12845,15 +12863,15 @@ textarea.form-control {
 }
 
 .ftco-footer p {
-  color: #434343;
+  color: #f2ece1;
 }
 
 .ftco-footer a {
-  color: #434343;
+  color: #f2ece1;
 }
 
 .ftco-footer a:hover {
-  color: #434343;
+  color: #f2ece1;
 }
 
 .ftco-footer .ftco-heading-2 {
@@ -12864,12 +12882,12 @@ textarea.form-control {
 }
 
 .ftco-footer .opening-hours h4 {
-  color: #434343;
+  color: #f2ece1;
   font-size: 16px;
 }
 
 .ftco-footer .opening-hours p span {
-  color: rgba(255, 255, 255, 0.9);
+  color: #f2ece1;
 }
 
 .ftco-footer-social li {
@@ -12883,7 +12901,7 @@ textarea.form-control {
   width: 50px;
   display: block;
   float: left;
-  background: rgba(255, 255, 255, 0.05);
+  background: #3143a5;
   border-radius: 50%;
   position: relative;
 }
@@ -12899,7 +12917,7 @@ textarea.form-control {
 }
 
 .ftco-footer-social li a:hover {
-  color: #f1e5e6;
+  color: #6c975b;
 }
 
 .footer-small-nav>li {
@@ -13276,8 +13294,9 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 
+/* TO COLOR: to change color of ut address in footer */
 .block-23 ul li span {
-  color: #434343;
+  color: #f2ece1;
 }
 
 .block-23 ul li .icon,
@@ -13290,7 +13309,7 @@ textarea.form-control {
   width: 40px;
   font-size: 18px;
   padding-top: 2px;
-  color: #434343;
+  color: #f2ece1;
 }
 
 .contact-section .contact-info p a {
@@ -13730,9 +13749,10 @@ textarea.form-control {
   font-size: 12px;
 }
 
+/*TO COLOR: to change background of officer cards */
 /*officer cards*/
 .block-2 .back {
-  background: #F0758A;
+  background: #3143a5;
   -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.4);
   -webkit-transform: rotateY(-180deg);
@@ -13778,7 +13798,7 @@ textarea.form-control {
   /*letter-spacing: 0.05em;*/
   font-size: 20px;
   line-height: 1em;
-  color: #f8D1DE;
+  color: #f2ece1;
   font-weight: 600;
 }
 
@@ -13924,7 +13944,7 @@ textarea.form-control {
   width: 100%;
   height: 40px;
   z-index: 9999;
-  background-color: #f8D1DE;
+  background-color: #7c92bc;
   position: fixed;
   text-align: center;
   bottom: 0;
