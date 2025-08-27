@@ -515,7 +515,7 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Poppins';
+  font-family: "Lato", sans-serif;
   line-height: 1.2;
   color: inherit;
 }
@@ -539,7 +539,8 @@ h3,
 
 h4,
 .h4 {
-  font-family: 'Cy Grotesk';
+  font-family: "Sacramento", cursive;
+  font-weight: 300;
   font-size: 1.5rem;
 }
 
@@ -6806,7 +6807,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6931,7 +6932,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11672,7 +11673,7 @@ a.text-dark:focus {
 
 /*COLOR: to change main color*/
 body {
-  font-family: "Cabin";
+  font-family: "Lato", sans-serif;
   background: #f2ece1;
   font-size: 16px;
   line-height: 1.8;
@@ -11972,13 +11973,13 @@ h5,
 .navbar-brand {
   font-weight: 700;
   font-size: 30px;
-  font-family: "Josefin Sans", "Poppins", Arial, sans-serif;
+  font-family: "Lato", "Josefin Sans", "Poppins", Arial, sans-serif;
   line-height: 1;
 }
 
 .navbar-brand span {
   display: block;
-  font-family: "Josefin Sans", "Poppins", Arial, sans-serif;
+  font-family: "Lato", "Josefin Sans", "Poppins", Arial, sans-serif;
   font-size: 13px;
   letter-spacing: 0.1em;
   font-weight: 600;
@@ -12061,10 +12062,10 @@ h5,
   /* -webkit-text-stroke: 0.01px #3143a5; */
   font-size: 48px;
   color: #3143a5; /*TO COLOR: to change women in cs are text on home*/
-  line-height: 1.5;
+  line-height: 2;
   font-weight: 700;
   letter-spacing: 0.04em;
-  font-family: 'Genty'
+  font-family: "Julius Sans One", sans-serif;
 }
 
 @media (max-width: 991.98px) {
@@ -12091,7 +12092,7 @@ h5,
 .slider-text p {
   font-size: 18px;
   line-height: 1.5;
-  font-family: 'Poppins';
+  font-family: "Lato", sans-serif;
   color: #434343;
 }
 
@@ -12367,9 +12368,9 @@ div.override-color-9a8bc3 div:nth-child(1) {
 }
 
 .services .text h3 {
-  font-family: 'Cy Grotesk';
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .services .btn-custom {
@@ -13035,9 +13036,9 @@ textarea.form-control {
 
 /*section headers*/
 .heading-section h2 {
-  font-family: 'Cy Grotesk';
-  font-size: 30px;
-  font-weight: 700;
+  font-family: "Sacramento", cursive;
+  font-size: 60px;
+  font-weight: 500;
 }
 
 @media (max-width: 767.98px) {
