@@ -8,11 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Volkhov&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet"> -->   
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS/JS handled by local stylesheet and footer scripts (avoid mixing v5 with v4) -->
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -28,33 +36,14 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-    <style>
-        .nav-pills .nav-link.active {
-            background-color: #4C548D;
-            color: #fff;
-        }
-
-        .nav-pills .nav-link {
-            background-color: transparent;
-            color: #4C548D;
-        }
-
-        .nav-pills .nav-link:hover {
-            background-color: #4C548D;
-            color: #fff;
-        }
-    </style>
 </head>
 
-<body class="hackathon-bg">
+<body class="hackathon-bg hack26-page">
 
     <!-- NAV -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="ftco-navbar" style="background-color: #E6E1CE;">
         <a class="navbar-brand" href="https://www.cs.utexas.edu/~wics/">
-            <img src="images/hackathon25/wics_logo_25.png" style="float: left; width: 100px">
+            <img src="images/wics_logo_25_26.png" style="float: left; width: 100px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,49 +61,67 @@
                 <li class="nav-item"><a href="hackathon.html#hack25-sponsors" class="nav-link-hackathon nav-sponsors"
                         style="margin-right: 20px; color: #664120; font-size: 20px;">Sponsors</a></li>
                 <li class="nav-item d-none d-lg-block">
-                    <!--update link-->
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdnCyQA38zczWoT8vLfT8qLsN9O64nUTQ_o8t5_S66BZ7CXQw/viewform'
-                        target="_blank"><button class="hack25-button-nav">
-                            Register
-                        </button></a>
+                    <!-- updated: replaced button with image -->
+                        <a href='https://tinyurl.com/wicshacks26'
+                        target="_blank">
+                        <img src="images/hackathon26/hack26register.png" alt="Register" class="hack26-register-img">
+                    </a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- END nav -->
-
-    <!-- SECTION : HOME -->
+  <!-- SECTION : HOME -->
     <section class="hack25-home-section ftco-animate" id="hack-home">
-        <div style="display: flex; justify-content: center; align-items: center; padding-top: 100px;">
-            <img src="images/hackathon25/border_top.png">
-        </div>
-        <h1 class="hack25-home-header" style="padding-top: 20px; text-align: center;">UT Austin WICS</h1>
-        <div class="content-wrapper">
-            <div class="boot-container">
-                <img src="images/hackathon25/boot_left.png" class="boot">
+        <div class="container">
+            <!-- Top section: title text + radio side-by-side -->
+            <div class="home-row" style="margin-bottom: 60px;">
+                <div class="home-text">
+                    <h1 class="hack25-home-header" style="padding-top: 200px; text-align: left; margin: 0 0 15px 0; padding-left: 0px;">WICS CITY LIMITS</h1>
+                    <div class="content-wrapper" style="margin: 0 0 30px 0; padding-left: 0px;">
+                        <div class="text-container">
+                            <svg width="0" height="0" aria-hidden="true" focusable="false">
+                                <defs>
+                                    <filter id="goo-hd">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -10" result="cm"/>
+                                        <feBlend in="SourceGraphic" in2="cm" />
+                                    </filter>
+                                </defs>
+                            </svg>
+
+                            <!-- wrapper (filter moved to the drop element to avoid blurring the text) -->
+                            <div class="hack-drop-wrapper">
+                                <div id="hd-container">
+                                    <p class="hd-text">HACKATH<span class="hd-o"><span class="drop"></span>O</span>N</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 class="hack25-home-header" style="text-align: left; margin: 0; padding-left: 0px;">2026</h1>
+                </div>
+
+                <div class="home-image" aria-hidden="true">
+                    <!-- Radio/boombox image shown to the right on wide screens, stacks on small screens -->
+                    <!-- NOTE: please place your radio image at images/hackathon26/boombox.png or update the src below -->
+                    <img src="images/hackathon26/hack26_radio_small.png" alt="Radio" class="radio-img">
+                </div>
             </div>
-            <div class="text-container">
-                <img src="images/hackathon25/hackathon-text2.png" alt="Hackathon Text"
-                    style="transform: rotate(-7deg); ">>
-            </div>
-            <div class="boot-container">
-                <img src="images/hackathon25/boot_right.png" class="boot">
-            </div>
-        </div>
-        <h1 class="hack25-home-header" style=" text-align: center;">2025</h1>
-        <div style="display: flex; justify-content: center; align-items: center;">
-            <img src="images/hackathon25/border_bottom.png" style="padding-top: 15px;">
-        </div>
-        <div class="ftco-animate" style="width: 100%; z-index: 1; display: flex; flex-wrap: wrap; align-items: center;">
-            <div style="flex: 1;  display: flex; flex-direction: column; align-items: center;">
+
+            <!-- Bottom section: date, location, register button centered -->
+            <div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
                 <h4><span class="hack25-home-text"
-                        style="text-justify: center; padding-top: 30px; display: block;">February 8, 2025 - February 9,
+                        style="text-align: center; padding-top: 30px; display: block;">February 8, 2025 - February 9,
                         2025</span></h4>
                 <h4><span class="hack25-home-text"
-                        style="padding-top: 20px; padding-bottom: 30px; display: block;">Hosted
+                        style="text-align: center; padding-top: 20px; padding-bottom: 30px; display: block;">Hosted
                         @ UT Austin Gates Dell Complex</span></h4>
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdnCyQA38zczWoT8vLfT8qLsN9O64nUTQ_o8t5_S66BZ7CXQw/viewform'
-                    target="_blank"><button class="hack25-button"> Register Now</button></a>
+                <!-- updated: replaced button with image -->
+                <a href='https://tinyurl.com/wicshacks26'
+                    target="_blank">
+                    <img src="images/hackathon26/hack26register.png" alt="Register" class="hack26-register-img-large">
+                </a>
             </div>
         </div>
     </section>
@@ -122,26 +129,43 @@
 
     <!--SECTION : ABOUT -->
     <section class="hack25-about-section ftco-animate" id="hack25-about">
+        <svg class="hack26-about-bg"
+        preserveAspectRatio="xMidYMid slice"
+        viewBox="10 10 80 80"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true">
+            <path fill="#e18763" class="hack26-about-path out-top"
+                  d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"/>
+            <path fill="#edd268" class="hack26-about-path in-top"
+                  d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z"/>
+            <path fill="#83a3bd" class="hack26-about-path out-bottom"
+                  d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"/>
+            <path fill="#6e7ba9" class="hack26-about-path in-bottom"
+                  d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"/>
+        </svg>
         <div class="about-content-container">
-            <div class="about-text">
-                <h1 class="about-title">About</h1>
-                <p>
-                    Women in Computer Science is excited to announce that our ninth annual hackathon will be on
-                    February
-                    8th and 9th! We will have both beginner and intermediate technical workshops in the days leading up
-                    to
-                    the hackathon and a 24-hour hackathon starting on Saturday! We'll also have various company talks
-                    and
-                    time for you to meet our sponsors. WiCS Hacks is open to ALL women and non-binary students in any
-                    major.
-                    All skill levels are welcome and we are beginner-friendly! At WiCS Hacks, you'll be able to learn
-                    new
-                    skills, practice problem-solving, create products and services solving real-world problems, and meet
-                    company sponsors and engineers in industry!
-                </p>
-            </div>
-            <div class="cowgirl-image">
-                <img src="images/hackathon25/cowgirl_about.png" alt="Cowgirl Silhouette">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h1 class="about-title">About</h1>
+                        <p>
+                            Women in Computer Science is excited to announce that our ninth annual hackathon will be on
+                            February
+                            8th and 9th! We will have both beginner and intermediate technical workshops in the days leading up
+                            to
+                            the hackathon and a 24-hour hackathon starting on Saturday! We'll also have various company talks
+                            and
+                            time for you to meet our sponsors. WiCS Hacks is open to ALL women and non-binary students in any
+                            major.
+                            All skill levels are welcome and we are beginner-friendly! At WiCS Hacks, you'll be able to learn
+                            new
+                            skills, practice problem-solving, create products and services solving real-world problems, and meet
+                            company sponsors and engineers in industry!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/utwics" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:undefinedpx;height:undefinedpx;max-height:100%; width:undefinedpx;"><div style="padding:16px;"> <a id="main_link" href="utwics" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/utwics/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Shared post</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;">Time</time></p></div></blockquote><script async src="https://www.instagram.com/embed.js"></script></div>
             </div>
         </div>
     </section>
@@ -200,13 +224,14 @@
 
     <!--SECTION : FAQ  -->
     <section class="hack25-section ftco-animate" id="hack25-faq"
-        style="background-image: url('images/hackathon25/faq_bg.png')">
-        <div class="hack25-transparent-section">
+        style="background-image: url('images/hackathon26/hack26aclbg.png')">
+        <!-- photo credit inserted for hack26 -->
+        <div class="hack26-photo-credit" aria-hidden="true">Photo credit: Nidhi Pabbathi</div>
             <div class="container mt-xl-3 pt-xl-1">
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
                         <div class="text-center">
-                            <h1 class="hack25-rye">FAQ'S</h1>
+                            <h1 class="hack26-header">FAQ'S</h1>
                         </div>
                     </div>
                     <div class="col-md-6 offset-md-3">
@@ -215,15 +240,15 @@
                                 <div class="card-header">
                                     <div class="mb-0">
                                         <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-1"
-                                            data-aria-expanded="true" data-aria-controls="faq-1">
-                                            <span class="badge">1</span>When is WiCS Hacks?
+                                            aria-expanded="true" aria-controls="faq-1">
+                                            <img src="images/hackathon26/hack26record.gif" alt="record" class="hack26-record">When is WiCS Hacks?
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faq-1" class="collapse" aria-labelledby="faq-heading-1"
                                     data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>February 8th - February 9th, 2025!</p>
+                                        <p>February 7th - February 8th, 2026!</p>
                                     </div>
                                 </div>
                             </div>
@@ -231,8 +256,8 @@
                                 <div class="card-header" id="faq-heading-2">
                                     <div class="mb-0">
                                         <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-2"
-                                            data-aria-expanded="false" data-aria-controls="faq-2">
-                                            <span class="badge">2</span> Who can attend?
+                                            aria-expanded="false" aria-controls="faq-2">
+                                            <img src="images/hackathon26/hack26record.gif" alt="record" class="hack26-record"> Who can attend?
                                         </h5>
                                     </div>
                                 </div>
@@ -248,8 +273,8 @@
                                 <div class="card-header" id="faq-heading-3">
                                     <div class="mb-0">
                                         <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-3"
-                                            data-aria-expanded="false" data-aria-controls="faq-3">
-                                            <span class="badge">3</span>Where will WiCS Hacks be held?
+                                            aria-expanded="false" aria-controls="faq-3">
+                                            <img src="images/hackathon26/hack26record.gif" alt="record" class="hack26-record">Where will WiCS Hacks be held?
                                         </h5>
                                     </div>
                                 </div>
@@ -264,8 +289,8 @@
                                 <div class="card-header" id="faq-heading-4">
                                     <div class="mb-0">
                                         <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-4"
-                                            data-aria-expanded="false" data-aria-controls="faq-4">
-                                            <span class="badge">4</span> Do I have to attend both days of the hackathon
+                                            aria-expanded="false" aria-controls="faq-4">
+                                            <img src="images/hackathon26/hack26record.gif" alt="record" class="hack26-record"> Do I have to attend both days of the hackathon
                                             or
                                             any particular workshops?
                                         </h5>
@@ -286,8 +311,8 @@
                                 <div class="card-header" id="faq-heading-5">
                                     <div class="mb-0">
                                         <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-5"
-                                            data-aria-expanded="false" data-aria-controls="faq-5">
-                                            <span class="badge">5</span> How much will this cost me?
+                                            aria-expanded="false" aria-controls="faq-5">
+                                            <img src="images/hackathon26/hack26record.gif" alt="record" class="hack26-record"> How much will this cost me?
                                         </h5>
                                     </div>
                                 </div>
@@ -304,8 +329,8 @@
                                 <div class="card-header" id="faq-heading-6">
                                     <div class="mb-0">
                                         <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-6"
-                                            data-aria-expanded="false" data-aria-controls="faq-6">
-                                            <span class="badge">6</span> What projects can I work on?
+                                            aria-expanded="false" aria-controls="faq-6">
+                                            <img src="images/hackathon26/hack26record.gif" alt="record" class="hack26-record"> What projects can I work on?
                                         </h5>
                                     </div>
                                 </div>
@@ -323,8 +348,8 @@
                                 <div class="card-header" id="faq-heading-7">
                                     <div class="mb-0">
                                         <h5 class="hack25-faq-title" data-toggle="collapse" data-target="#faq-7"
-                                            data-aria-expanded="false" data-aria-controls="faq-7">
-                                            <span class="badge">7</span> How will teams work?
+                                            aria-expanded="false" aria-controls="faq-7">
+                                            <img src="images/hackathon26/hack26record.gif" alt="record" class="hack26-record"> How will teams work?
                                         </h5>
                                     </div>
                                 </div>
@@ -336,7 +361,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -347,36 +371,28 @@
     </section>
     <!--BEGIN SECTION : SCHEDULE -->
     <section class="hack25-section" id="hack25-schedule"
-        style="background-image: url('images/hackathon25/schedule_bg.png')">
-        <div class="hack25-image-section">
-            <div class="hack25-transparent-section" style="background-color: #E6E1CE;">
+        style="background-image: url('images/hackathon26/hack26aboutbg.jpg')">
+        <div class="hack26-photo-credit" aria-hidden="true">Photo credit: Vecteezy.com</div>
                 <div class="text-center container mt-xl-3 pt-xl-5 mb-4 pb-4">
-                    <h1 class="hack25-rye">Schedule</h1>
-                    <div class="line-and-stars">
-                        <div class="line"></div>
-                        <div class="stars">
-                            <img src="images/hackathon25/stars.png" alt="Stars">
-                        </div>
-                    </div>
-                    
+                    <h1 class="hack26-header">Schedule</h1>
                     <div class="container py-9 py-lg-11 position-relative z-index-1">
                         <div class="row">
                             <!-- Schedule Navigation -->
                             <div class="col-lg-5 mb-5 mb-lg-0">
-                                <div class="nav nav-pills flex-column" id="myTab" role="tablist">
-                                    <button class="nav-link px-4 text-start mb-3 active" id="d1-tab"
-                                        data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab"
+                                <div class="nav nav-pills flex-column schedule-nav" id="myTab" role="tablist">
+                                    <a class="nav-link schedule-tab active mb-3" id="d1-tab"
+                                        data-toggle="tab" href="#day1" role="tab"
                                         aria-controls="day1" aria-selected="true">
-                                        <span class="d-block fs-5 fw-bold">Day 1</span>
-                                        <span class="small">Saturday, Feb 8, 2025</span>
-                                    </button>
+                                        <span class="d-block schedule-day-label">Day 1</span>
+                                        <span class="schedule-day-date">Saturday, Feb 8, 2025</span>
+                                    </a>
                     
-                                    <button class="nav-link px-4 text-start" id="d2-tab" data-bs-toggle="tab"
-                                        data-bs-target="#day2" type="button" role="tab" aria-controls="day2"
+                                    <a class="nav-link schedule-tab" id="d2-tab" data-toggle="tab"
+                                        href="#day2" role="tab" aria-controls="day2"
                                         aria-selected="false">
-                                        <span class="d-block fs-5 fw-bold">Day 2</span>
-                                        <span class="small">Sunday, Feb 9, 2025</span>
-                                    </button>
+                                        <span class="d-block schedule-day-label">Day 2</span>
+                                        <span class="schedule-day-date">Sunday, Feb 9, 2025</span>
+                                    </a>
                                 </div>
                             </div>
                     
@@ -390,10 +406,10 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">8:00 AM - 9:00 AM<br>
+                                                    style="width: 160px; display: inline-block;">8:00 AM - 9:00 AM<br>
                                                     GDC Atrium</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Check In + Breakfast</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Check In + Breakfast</h4>
                                                     <p class="mb-0">Get checked in! Receive your ID card, stickers, and
                                                         enjoy breakfast.</p>
                                                 </div>
@@ -401,10 +417,10 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">9:00 AM - 10:00 AM <br>
+                                                    style="width: 160px; display: inline-block;">9:00 AM - 10:00 AM <br>
                                                     GDC Auditorium</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Introduction + Keynote</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Introduction + Keynote</h4>
                                                     <p class="mb-0">Introduction and Keynote presentation given by WiCS
                                                         Hacks, Women in Technology, WiCS Hacks Logistics. Enjoy a
                                                         Keynote talk from Siobhan Burch.</p>
@@ -413,11 +429,11 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">10:00 AM<br> GDC
+                                                    style="width: 160px; display: inline-block;">10:00 AM<br> GDC
                                                     Rooms</span>
                     
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Hacking Begins!</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Hacking Begins!</h4>
                                                     <p class="mb-0">Snacks will be available on the snack tables! <br>
                                                         Rooms available for hacking: <br>
                     
@@ -437,10 +453,10 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">10:00 AM - 10:30 AM
+                                                    style="width: 160px; display: inline-block;">10:00 AM - 10:30 AM
                                                     <br> GDC Atrium</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Team Formation</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Team Formation</h4>
                                                     <p class="mb-0">Meet other hackers in need of teammates and form a
                                                         team!</p>
                                                 </div>
@@ -448,10 +464,10 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">10:30 AM - 11:30 AM
+                                                    style="width: 160px; display: inline-block;">10:30 AM - 11:30 AM
                                                     <br> GDC 1.304</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Ideation Workshop</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Ideation Workshop</h4>
                                                     <p class="mb-0">WiCS + Freetail Collaboration. Get help thinking
                                                         of project ideas!</p>
                                                 </div>
@@ -459,40 +475,40 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">12:00 PM - 12:30 PM
+                                                    style="width: 160px; display: inline-block;">12:00 PM - 12:30 PM
                                                     <br> GDC Atrium Tables</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Lunch Time!</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Lunch Time!</h4>
                                                     <p class="mb-0">Get lunch!</p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">12:00 PM - 6:00 PM
+                                                    style="width: 160px; display: inline-block;">12:00 PM - 6:00 PM
                                                     <br>GDC 4th Floor Bridge</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Office Hours</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Office Hours</h4>
                                                     <p class="mb-0">Get technical help with your projects!</p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">12:00 PM - 6:00 PM <br>
+                                                    style="width: 160px; display: inline-block;">12:00 PM - 6:00 PM <br>
                                                     GDC 6th Floor Bridge</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Giddy-Up Games!</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Giddy-Up Games!</h4>
                                                     <p class="mb-0">Join us for some fun mini-games to take a break from hacking!</p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">2:00 PM - 4:00 PM <br>
+                                                    style="width: 160px; display: inline-block;">2:00 PM - 4:00 PM <br>
                                                     GDC 6.302</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Sponsor Career Fair</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Sponsor Career Fair</h4>
                                                     <p class="mb-0">Companies:
 
                                                         HEB,
@@ -507,48 +523,48 @@
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
                                                     style="width: 120px; display: inline-block;">2:00 PM - 4:00 PM <br>
                                                     GDC Back Courtyard</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Destress with Dogs</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Destress with Dogs</h4>
                                                     <p class="mb-0"> Come destress with some therapy dogs from Austin’s Divine Canines!</p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">4:30 PM - 6:00 PM <br>
+                                                    style="width: 160px; display: inline-block;">4:30 PM - 6:00 PM <br>
                                                     GDC 4.302</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Succulent Painting</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Succulent Painting</h4>
                                                     <p class="mb-0"> Paint and take home your own succulent! </p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">6:00 PM - 6:30 PM <br>
+                                                    style="width: 160px; display: inline-block;">6:00 PM - 6:30 PM <br>
                                                     GDC Atrium</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Dinner Time!</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Dinner Time!</h4>
                                                     <p class="mb-0"> Come enjoy dinner in the GDC Atrium. </p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">7:30 PM - 8:00 PM <br>
+                                                    style="width: 160px; display: inline-block;">7:30 PM - 8:00 PM <br>
                                                     GDC Atrium</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Dessert!</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Dessert!</h4>
                                                     <p class="mb-0"> Come enjoy dessert in the GDC Atrium. </p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">6:30 PM - 8:00 PM <br>
+                                                    style="width: 160px; display: inline-block;">6:30 PM - 8:00 PM <br>
                                                     GDC 4.302</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Saddle Up with S'mores!</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Saddle Up with S'mores!</h4>
                                                     <p class="mb-0"> Make your own sweet treats! </p>
                                                 </div>
                                             </li>
@@ -561,20 +577,20 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">9:00 AM - 10:00 AM<br>
+                                                    style="width: 160px; display: inline-block;">9:00 AM - 10:00 AM<br>
                                                     GDC Atrium</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Check In + Breakfast and Coffee</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Check In + Breakfast and Coffee</h4>
                                                     <p class="mb-0">Fuel up! Hacking ends at 10:00 AM.</p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">10:00 AM - 11:00 AM<br>
+                                                    style="width: 160px; display: inline-block;">10:00 AM - 11:00 AM<br>
                                                     GDC 1.304</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Pitch Workshop</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Pitch Workshop</h4>
                                                     <p class="mb-0">Learn how to pitch your project with WiCS and Texas
                                                         Convergent.</p>
                                                 </div>
@@ -582,20 +598,20 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">11:00 AM - 11:30 AM<br>
+                                                    style="width: 160px; display: inline-block;">11:00 AM - 11:30 AM<br>
                                                     GDC Atrium</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Lunch Time!</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Lunch Time!</h4>
                                                     <p class="mb-0">Enjoy some lunch.</p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">1:00 PM - 4:00 PM<br>
+                                                    style="width: 160px; display: inline-block;">1:00 PM - 4:00 PM<br>
                                                     GDC 4.302, 4.304, 5.302, 5.304</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Judging</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Judging</h4>
                                                     <p class="mb-0">Sweatshirts will be handed out to participants who
                                                         submit and present a project.</p>
                                                 </div>
@@ -603,20 +619,20 @@
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">4:00 PM - 5:00 PM<br>
+                                                    style="width: 160px; display: inline-block;">4:00 PM - 5:00 PM<br>
                                                     GDC 6.302</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Final Deliberation</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Final Deliberation</h4>
                                                     <p class="mb-0">Officers + Judges ONLY!</p>
                                                 </div>
                                             </li>
                                             <li class="d-flex flex-column flex-md-row py-4">
                                                 <span
                                                     class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted"
-                                                    style="width: 120px; display: inline-block;">5:00 PM - 6:00 PM<br>
+                                                    style="width: 160px; display: inline-block;">5:00 PM - 6:00 PM<br>
                                                     GDC Auditorium</span>
-                                                <div class="flex-grow-1 ps-4 border-start border-3" style="border-left: 3px solid #4C548D !important;">
-                                                    <h4 style="color:#4C548D">Closing + Awards Ceremony</h4>
+                                                <div class="flex-grow-1 ps-4">
+                                                    <h4>Closing + Awards Ceremony</h4>
                                                     <p class="mb-0"> Closing remarks and announcing winners!</p>
                                                 </div>
                                             </li>
@@ -625,7 +641,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 </div>
             </div>
@@ -634,102 +649,43 @@
     <!--END SECTION : SCHEDULE -->
 
     <!--SECTION : SPONSORS  -->
-    <section class="hack25-section" id="hack25-sponsors">
-        <div class="sponsors-container">
-            <img class="badge-img" src="images/hackathon25/sherrif_badge.png">
-            <div class="text-content">
-                <h1 class="hack25-rye">SPONSORS</h1>
-                <p class="hack25-text">A big thanks to all our corporate sponsors!</p>
-            </div>
-            <img class="badge-img" src="images/hackathon25/sherrif_badge.png">
+    <section class="hack25-section" id="hack25-sponsors" style="background-color: #83a3bd; padding: 2rem 0 0 0;">
+        <div class="text-center container mt-xl-1 pt-xl-2 mb-2 pb-2">
+            <h1 class="hack26-header">Sponsors</h1>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 ftco-animate">
-                    <div class="hack25-case img d-flex align-items-center justify-content-center"
-                        style="background-image: url(images/hackathon25/jane_street.png);">
-                        <div class="text text-center">
-                            <h3><a style="font-size: 42px !important" href="https://www.janestreet.com/">Jane Street</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="hack25-case img d-flex align-items-center justify-content-center"
-                        style="background-image: url(images/hackathon25/trade_desk.png);">
-                        <div class="text text-center">
-                            <h3><a style="font-size: 42px !important" href="https://www.thetradedesk.com/us">Trade
-                                    Desk</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="hack25-case img d-flex align-items-center justify-content-center"
-                        style="background-image: url(images/hackathon25/bloomberg.png);">
-                        <div class="text text-center">
-                            <h3><a style="font-size: 42px !important" href="https://www.bloomberg.com/">Bloomberg</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="hack25-case img d-flex align-items-center justify-content-center"
-                        style="background-image: url(images/hackathon25/adobe.png);">
-                        <div class="text text-center">
-                            <h3><a style="font-size: 42px !important" href="https://www.adobe.com/">Adobe</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="hack25-case img d-flex align-items-center justify-content-center"
-                        style="background-image: url(images/hackathon25/roblox.png);">
-                        <div class="text text-center">
-                            <h3><a style="font-size: 42px !important" href="https://www.roblox.com/">Roblox</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="hack25-case img d-flex align-items-center justify-content-center"
-                        style="background-image: url(images/hackathon25/heb.png);">
-                        <div class="text text-center">
-                            <h3><a style="font-size: 42px !important" href="https://www.heb.com/">H-E-B</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="hack25-case img d-flex align-items-center justify-content-center"
-                        style="background-image: url(images/hackathon25/capital_one.png);">
-                        <div class="text text-center">
-                            <h3><a style="font-size: 42px !important" href="https://www.capitalone.com/">Captial One</a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="hack25-case img d-flex align-items-center justify-content-center"
-                        style="background-image: url(images/hackathon25/chevron.png);">
-                        <div class="text text-center">
-                            <h3><a style="font-size: 42px !important" href="https://www.chevron.com/">Chevron</a></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <img src="images/hackathon26/hack26_sponsors.png" alt="Sponsor Info" class="hack26-sponsor-decor">
     </section>
     <!--END SECTION : SPONSORS -->
 
+    <!--START SECTION : MUSIC PLAYER -->
+    <div class="hack26-vinyl-player">
+    <div class="vinyl-wrapper" id="vinyl">
+        <div class="vinyl-center"></div>
+    </div>
+    <div class="player-controls">
+        <button id="prev" aria-label="Previous">⏮</button>
+        <button id="play" aria-label="Play / Pause">▶</button>
+        <button id="next" aria-label="Next">⏭</button>
+    </div>
+    <audio id="audio" crossorigin="anonymous"></audio>
+</div>
+
+    <!--END SECTION : MUSIC PLAYER -->
+
     <!-- /footer> -->
     <footer class="hack25-footer">
+        <img src="images/hackathon26/hack26_footer_decor.png" alt="Footer Plant Decor" class="hack26-footer-decor">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md">
                     <div class="hack25-footer-widget mb-4">
-                        <h2 class="logo"><a href="#"><img src="images/hackathon25/wics_logo_25.png"
+                        <h2 class="logo"><a href="#"><img src="images/wics_logo_25_26.png"
                                     style="width: 250px"></a>
                         </h2>
-                        <p>Women in Computer Science is a non-profit organization dedicated to building a community of
-                            women in Computer Science.</p>
-                        <p>Follow us on our socials:</p>
+                        <div class="hack26-text"> Women in Computer Science is a non-profit organization dedicated to building a community of
+                            women in Computer Science.
+                        </div>
+                        <div class="hack26-text"> Follow us on our socials: </div>
                         <ul class="hack25-footer-social list-unstyled"
                             style="display: flex; gap: 10px; margin-top: 20px; margin-left: 25%;">
                             <li>
@@ -749,18 +705,18 @@
                 </div>
                 <div class="col-md">
                     <div class="hack25-footer-widget mb-4 ml-md-5">
-                        <h2 class="hack25-heading-2">Resources</h2>
+                        <h2 class="hack26-heading-2">Resources</h2>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="https://www.cs.utexas.edu/~wics/" class="py-1 d-block">
-                                    <img src="images/hackathon25/horseshoe_footer.png" alt="Horseshoe Icon"
+                                <a href="https://www.cs.utexas.edu/~wics/" class="py-1 d-block hack26-text">
+                                     <img src="images/hackathon26/hack26record.gif" alt="Record Icon"
                                         style="width: 56px; height: 56px; margin-right: 2px; vertical-align: middle; transform: rotate(-15deg);">
                                     WiCS Website
                                 </a>
                             </li>
                             <li>
-                                <a href="./calendar.html" class="py-1 d-block">
-                                    <img src="images/hackathon25/horseshoe_footer.png" alt="Horseshoe Icon"
+                                <a href="./calendar.html" class="py-1 d-block hack26-text">
+                                    <img src="images/hackathon26/hack26record.gif"  alt="Record Icon"
                                         style="width: 56px; height: 56px; margin-right: 2px; vertical-align: middle; transform: rotate(-15deg);">
                                     Calendar
                                 </a>
@@ -770,17 +726,17 @@
                 </div>
                 <div class="col-md">
                     <div class="hack25-footer-widget mb-4">
-                        <h2 class="hack25-heading-2">Have a Question?</h2>
+                        <h2 class="hack26-heading-2">Have a Question?</h2>
                         <div class="block-23 mb-3">
                             <ul>
                                 <li>
                                     <img src="images/hackathon25/location-pin.png" alt="Map Tag Icon"
                                         style="width: 40px; height: auto; vertical-align: middle; margin-right: 10px;">
-                                    <span class="text" style="line-height: 1.5;">
+                                    <div class="hack26-text" style="line-height: 1.5;">
                                         University of Texas at Austin <br />
                                         Gates Dell Complex, Room 3.314 <br />
                                         2317 Speedway, Austin, TX
-                                    </span>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -815,6 +771,8 @@
     </script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/music-player.js" defer></script>
 
 </body>
 

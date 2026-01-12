@@ -483,11 +483,11 @@ template {
 }
 
 .hackathon-bg {
-  background: #2A3E55 !important;
+  background: #58765d !important;
 }
 
 .hackathon-text {
-  color: #D3C3FF !important;
+  color: #6e7ba9 !important;
 }
 
 .hackathon-header {
@@ -12703,20 +12703,13 @@ textarea.form-control {
   background: #f19589 !important;
 }
 
-.about-title {
-  font-size: 48px;
-  font-weight: bold;
-  font-family: 'Rye';
-  color: #2A3E55;
-}
-
 .about-author .desc h3 {
   font-size: 24px;
 }
 
 .about-section {
   background-color: #dceefb; 
-  font-family: 'Arial', sans-serif;
+  font-family: "Alata", sans-serif;
   position: relative;
 }
 
@@ -12727,15 +12720,8 @@ textarea.form-control {
 .about-title {
   font-size: 48px;
   font-weight: bold;
-  font-family: 'Rye';
+  font-family: 'Monoton';
   color: #2A3E55;
-}
-
-.about-section {
-  background-color: #dceefb; 
-  font-family: 'Arial', sans-serif;
-  position: relative;
-  padding: 50px 0;
 }
 
 .about-content-container {
@@ -14737,6 +14723,436 @@ a.anchor {
   font-size: 30px;
 }
 
+/* hack26 */
+
+.hack26-text {
+  font-family: 'Alata', sans-serif;
+  font-size: 20px;
+}
+
+.hack26-heading-2 {
+  font-family: 'Notable', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2A3E55;
+}
+
+.hack26-header {
+  font-family: 'Monoton', sans-serif;
+  width: 100%;
+  font-size: 40px;
+  color: #2A3E55;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+}
+
+.hack26-page .nav-pills .nav-link.active {
+  background-color: #4C548D;
+  color: #fff;
+}
+
+.hack26-page .nav-pills .nav-link {
+  background-color: transparent;
+  color: #4C548D;
+}
+
+.hack26-page .nav-pills .nav-link:hover {
+  background-color: #4C548D;
+  color: #fff;
+}
+
+.hack26-page .hack26-register-img {
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hack26-page .hack26-register-img-large {
+  height: 80px;
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+}
+
+.hack26-page .hack25-about-section {
+    position: relative;
+    overflow: hidden;
+    background-color: #fee440;
+    padding: 0;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hack26: about section animation keyframes (global scope) */
+@keyframes hack26-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hack26-page .hack26-about-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    display: block;
+}
+
+/* hack26: animation classes for about section SVG paths */
+.hack26-page .hack26-about-path.out-top {
+    animation: hack26-rotate 20s linear infinite !important;
+    transform-origin: 13px 25px;
+}
+
+.hack26-page .hack26-about-path.in-top {
+    animation: hack26-rotate 10s linear infinite !important;
+    transform-origin: 13px 25px;
+}
+
+.hack26-page .hack26-about-path.out-bottom {
+    animation: hack26-rotate 25s linear infinite !important;
+    transform-origin: 84px 93px;
+}
+
+.hack26-page .hack26-about-path.in-bottom {
+    animation: hack26-rotate 15s linear infinite !important;
+    transform-origin: 84px 93px;
+}
+
+.hack26-page .about-content-container {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+}
+
+.hack26-page .about-text {
+    background: #f8f1e6;
+    backdrop-filter: blur(6px);
+    padding: 2.5rem;
+    border-radius: 20px;
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    border: 4px solid #d97e52;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+                0 0 0 8px #f8f1e6,
+                0 8px 0 8px rgba(217, 126, 82, 0.3);
+    font-family: 'Alata', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.hack26-page .about-text:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25), 
+                0 0 0 8px #f8f1e6,
+                0 12px 0 8px rgba(217, 126, 82, 0.4);
+}
+
+.hack26-page .about-text h1 {
+    font-family: 'Monoton', sans-serif;
+    font-size: 36px;
+    color: #2A3E55;
+    text-shadow:
+        -2px -2px 0 rgba(255, 255, 255, 0.5),
+        2px -2px 0 rgba(255, 255, 255, 0.5),
+        -2px 2px 0 rgba(255, 255, 255, 0.5),
+        2px 2px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.hack26-page .about-text p {
+    color: #2A3E55;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+/* hack26: ensure FAQ background image displays properly */
+.hack26-page #hack25-faq {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* hack26: photo credit badge for FAQ background */
+.hack26-page #hack25-faq {
+  position: relative; /* ensure positioned context */
+}
+.hack26-page .hack26-photo-credit {
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  z-index: 50;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(0,0,0,0.45);
+  padding: 4px 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  font-family: 'Space Mono', monospace;
+  pointer-events: none; /* non-interactive decorative label */
+}
+
+/* hack26: Schedule section styling */
+.hack26-page #hack25-schedule {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hack26-page .hack25-transparent-section {
+  padding: 3rem 0;
+}
+
+/* Schedule navigation tabs */
+.hack26-page .schedule-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hack26-page .schedule-tab {
+  background: linear-gradient(135deg, #e18763 0%, #f0a080 100%);
+  color: white !important;
+  padding: 1.5rem !important;
+  border-radius: 20px;
+  text-align: left;
+  font-family: 'Notable', sans-serif;
+  border: 3px solid #d97e52;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.hack26-page .schedule-tab:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #f0a080 0%, #e18763 100%);
+}
+
+.hack26-page .schedule-tab.active {
+  background: linear-gradient(135deg, #edd268 0%, #f4d98f 100%);
+  color: #2A3E55 !important;
+  border-color: #d4b84a;
+  box-shadow: 0 8px 16px rgba(237, 210, 104, 0.4);
+}
+
+.hack26-page .schedule-day-label {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.hack26-page .schedule-day-date {
+  font-family: 'Alata', sans-serif;
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top: 0.5rem;
+}
+
+/* Schedule content styling */
+.hack26-page .tab-content {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 2rem;
+  border: 3px solid #edd268;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.hack26-page .tab-pane ul li {
+  border-bottom: 2px dashed #edd268;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hack26-page .tab-pane ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.hack26-page .tab-pane ul li span {
+  font-family: 'Space Mono', monospace;
+  font-weight: 600;
+  color: #6e7ba9;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 160px;
+}
+
+.hack26-page .tab-pane ul li .flex-grow-1 {
+  padding-left: 0 !important;
+  border-left: none !important;
+}
+
+.hack26-page .tab-pane ul li h4 {
+  font-family: 'Notable', sans-serif;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #e18763, #83a3bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+.hack26-page .tab-pane ul li p {
+  font-family: 'Alata', sans-serif;
+  color: #2A3E55;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .hack26-page .schedule-tab {
+    padding: 1.2rem !important;
+    font-size: 16px;
+  }
+  
+  .hack26-page .schedule-day-label {
+    font-size: 20px;
+  }
+  
+  .hack26-page .tab-content {
+    margin-top: 2rem;
+  }
+}
+
+/* About section Instagram embed styling */
+.hack26-page .instagram-media {
+  height: 100% !important;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.hack26-page .row .col-lg-6:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hack26-vinyl-player {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+
+    font-family: sans-serif;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Vinyl */
+.vinyl-wrapper {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at center,
+            #111 0%,
+            #222 35%,
+            #000 70%);
+    position: relative;
+}
+
+.vinyl-center {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 12px;
+    height: 12px;
+    background: #fee440;
+    border-radius: 50%;
+}
+
+/* Spin animation */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.spinning {
+    animation: spin 3s linear infinite;
+}
+
+.player-controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.player-controls button {
+    border: none;
+    background: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.player-controls button:hover {
+    transform: scale(1.1);
+}
+
+/* === hack26: record GIF styling (inserted) === */
+.hack26-page .hack25-faq .card .card-header .hack25-faq-title .hack26-record,
+.hack26-page .hack26-faq .card .card-header .hack26-faq-title .hack26-record {
+  width: 40px !important;   /* small layout box so it replaces the badge */
+  height: 40px !important;
+  float: left;
+  margin-right: 12px !important;
+  display: block;
+  object-fit: contain;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: transform 120ms ease;
+}
+
+@media (max-width: 480px) {
+  .hack26-page .hack25-faq .card .card-header .hack25-faq-title .hack26-record,
+  .hack26-page .hack26-faq .card .card-header .hack26-faq-title .hack26-record {
+    transform: scale(0.08) !important;
+    width: 14px !important;
+    height: 14px !important;
+    margin-right: 10px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hack26-page .hack25-faq .card .card-header .hack25-faq-title .hack26-record,
+  .hack26-page .hack26-faq .card .card-header .hack26-faq-title .hack26-record {
+    transform: scale(0.07) !important;
+  }
+}
+
+.hack26-page .hack25-faq .card .card-header .hack25-faq-title .hack26-record:hover,
+.hack26-page .hack26-faq .card .card-header .hack26-faq-title .hack26-record:hover {
+  transform: scale(0.09) !important;
+}
+
+/* ensure title containers won't clip the record */
+.hack26-page .hack25-faq .card .card-header .hack25-faq-title,
+.hack26-page .hack26-faq .card .card-header .hack26-faq-title { overflow: visible; }
+
+/* === end hack26 record styling === */
+
 /* hack25 */
 
 .hack25-button-nav {
@@ -14757,7 +15173,7 @@ a.anchor {
 /* HOME */
 
 .hack25-home-header {
-  font-family: 'Rye';
+  font-family: 'Monoton', sans-serif;
   border: 1px;
   font-size: 64px;
   color: #F3EDE1;
@@ -14771,7 +15187,7 @@ a.anchor {
 }
 
 .hack25-home-text {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Notable', monospace;
   font-size: 30px;
   color: white;
   text-align: left;
@@ -14782,6 +15198,87 @@ a.anchor {
   padding: 4em 0em 8em 0em;
   position: relative;
 }
+
+/* === Home two-column layout: text left, radio image right === */
+.home-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: nowrap; /* avoid wrapping the image under the text on wide screens */
+}
+
+.home-text {
+  flex: 1 1 auto;
+  min-width: 0; /* allow flex children to shrink properly */
+}
+
+.home-image {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 220px;
+}
+
+@keyframes radio-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.radio-img {
+  width: 100%;        /* scale to container width */
+  max-width: 380px;   /* increased from 260px to 380px for larger radio */
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.radio-img.playing {
+  animation: radio-pulse 1.5s ease-in-out infinite;
+}
+
+.radio-img.paused {
+  transform: scale(1);
+}
+
+@media (max-width: 992px) {
+  .home-row { gap: 1.5rem; }
+  .radio-img {
+    max-width: 320px;
+  }
+  .home-text {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home-text {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .home-image {
+    width: 100%;
+    padding: 1rem 0 2rem;
+  }
+  .hack25-home-header {
+    text-align: center !important;
+  }
+  .radio-img {
+    width: 160px;
+  }
+}
+
 
 .hack25-button {
   padding: 8px 20px;
@@ -14855,12 +15352,120 @@ a.anchor {
   height: auto;
 }
 
-@media (max-width: 768px) {
-  .content-wrapper {
-    flex-direction: column;
+/* === Hackathon drop-effect (replace rope text image) === */
+.hack-drop-wrapper {
+  width: 100%;
+  max-width: 420px; /* narrower wrapper so text doesn't push radio down */
+  margin: 0;
+  position: relative;
+}
+
+#hd-container {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  height: 160px; /* slightly reduced height to match smaller text */
+  margin: 0;
+  overflow: visible; /* allow drop to start off-screen */
+}
+
+.notable-regular {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hd-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-family: 'Anton', Impact, Arial, sans-serif;
+  font-size: 140px; /* reduced size so radio fits beside text */
+  line-height: 1;
+  color: #FFFFFF;
+  margin: 0;
+  white-space: nowrap;
+  z-index: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hd-o {
+  display: inline-block;
+  position: relative;
+  padding: 0 0.02em; /* slight inset to help spacing */
+}
+
+.hd-o .drop {
+  position: absolute;
+  left: 50%;
+  /* set 'top' to the O landing reference; motion will be done with translateY for smoother GPU animation */
+  top: 48px; /* desktop landing reference — adjusted per-media-query below */
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  background-color: white;
+  z-index: 2;
+  filter: url(#goo-hd); /* keep goo on drop only */
+  will-change: transform;
+  backface-visibility: hidden;
+  /* loop: fall -> settle -> pause -> fade & reset above -> repeat
+     opacity transitions around the reset prevent a visible jump. */
+  animation: hd-move 6.2s cubic-bezier(.22,.9,.37,1) infinite;
+}
+
+@keyframes hd-move {
+  /* Use translateY/scale/rotate for GPU-friendly, smooth motion. Values assume `top` is the landing reference (0).
+     translateY negative = above the O; translateY 0 = top of the O; translateY positive = below the O. */
+  0% {
+    transform: translateX(-50%) translateY(-260px) scaleY(2.1) scaleX(0.35) rotate(-2deg);
+    opacity: 1;
   }
-  .boot-container {
-    margin: 10px 0;
+
+  /* keep elongated as it approaches */
+  40% {
+    transform: translateX(-50%) translateY(-40px) scaleY(1.9) scaleX(0.45) rotate(-3deg);
+    opacity: 1;
+  }
+
+  /* morph to circle as it reaches the top of the O (nudged upward by 6px) */
+  52% {
+    transform: translateX(-50%) translateY(30px) scaleY(1) scaleX(1) rotate(0deg);
+    opacity: 1;
+  }
+
+  /* slight squash/settle deeper inside the O (nudged upward) */
+  60% {
+    transform: translateX(-50%) translateY(40px) scaleY(0.95) scaleX(1.05) rotate(1deg);
+    opacity: 1;
+  }
+
+  75% {
+    transform: translateX(-50%) translateY(52px) scaleY(1) scaleX(1) rotate(0deg);
+    opacity: 1;
+  }
+
+  /* pause visible in the O until 80% */
+  80% {
+    transform: translateX(-50%) translateY(52px) scaleY(1) scaleX(1) rotate(0deg);
+    opacity: 1;
+  }
+
+  /* fade out while staying inside the letter so it appears to disappear into the O */
+  88% {
+    transform: translateX(-50%) translateY(52px) scaleY(1) scaleX(1) rotate(0deg);
+    opacity: 0;
+  }
+
+  /* invisible reset: jump back above (still transparent) so next loop starts from top */
+  89% {
+    transform: translateX(-50%) translateY(-260px) scaleY(2.1) scaleX(0.35) rotate(-2deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(-260px) scaleY(2.1) scaleX(0.35) rotate(-2deg);
+    opacity: 0;
   }
 }
 
@@ -14900,7 +15505,10 @@ a.anchor {
 /* ABOUT */
 .hack25-about-section {
   position: relative;
-  padding-bottom: 10%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FAQ */
@@ -15071,12 +15679,30 @@ a.anchor {
   font-size: 20px;
   background: #E6E1CE;
   padding: 5em 0 3em 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hack26-footer-decor {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hack25-footer .container {
+  position: relative;
+  z-index: 2;
 }
 
 .hack25-footer .logo {
   font-size: 34px !important;
   font-weight: 800 !important;
   line-height: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .hack25-footer .logo a {
@@ -15095,6 +15721,8 @@ a.anchor {
   margin-bottom: 10px;
   font-size: 32px;
   font-weight: 400;
+  position: relative;
+  z-index: 2;
 }
 
 .hack25-footer .hack25-footer-widget ul li a {
@@ -15249,6 +15877,16 @@ a.anchor {
 
 .hack25-case:hover .text {
   opacity: 1;
+}
+
+/* hack26 sponsor image styling */
+.hack26-sponsor-decor {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 /* schedule image */
