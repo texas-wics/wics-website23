@@ -12721,14 +12721,14 @@ textarea.form-control {
   font-size: 48px;
   font-weight: bold;
   font-family: 'Monoton';
-  color: #2A3E55;
+  color: #58765d !important;
 }
 
 .about-content-container {
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 20px 10%;
+  padding: 20px 20%;
 }
 
 .about-text {
@@ -12737,7 +12737,6 @@ textarea.form-control {
   border-radius: 15px;
   padding: 40px 60px; 
   font-size: 18px;
-  text-align: justify;
   color: #333;
   width: 70%;
   position: relative;
@@ -14734,14 +14733,14 @@ a.anchor {
   font-family: 'Notable', sans-serif;
   font-size: 32px;
   font-weight: bold;
-  color: #2A3E55;
+  color: #2a3132 !important;
 }
 
 .hack26-header {
   font-family: 'Monoton', sans-serif;
   width: 100%;
   font-size: 40px;
-  color: #2A3E55;
+  color: #58765d;
   text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -14837,10 +14836,9 @@ a.anchor {
 .hack26-page .about-text {
     background: #f8f1e6;
     backdrop-filter: blur(6px);
-    padding: 2.5rem;
+    padding: 2rem;
     border-radius: 20px;
-    max-width: 650px;
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
     border: 4px solid #d97e52;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
@@ -14876,6 +14874,29 @@ a.anchor {
     line-height: 1.6;
     font-weight: 500;
 }
+
+/* Sponsors section title overlay */
+.hack26-page #hack25-sponsors {
+    position: relative;
+}
+
+.hack26-page .sponsors-title-overlay {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.hack26-page .sponsors-title-overlay h1 {
+    margin: 0;
+    text-align: center;
+}
+
 /* hack26: ensure FAQ background image displays properly */
 .hack26-page #hack25-faq {
   background-size: cover;
@@ -15231,8 +15252,8 @@ a.anchor {
 }
 
 .radio-img {
-  width: 100%;        /* scale to container width */
-  max-width: 380px;   /* increased from 260px to 380px for larger radio */
+  width: 100%;
+  max-width: 380px;
   height: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
@@ -15275,7 +15296,7 @@ a.anchor {
     text-align: center !important;
   }
   .radio-img {
-    width: 160px;
+    width: 320px;
   }
 }
 
@@ -15347,6 +15368,16 @@ a.anchor {
   padding: 0 20px;
 }
 
+@media (max-width: 800px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+  
+  .text-container {
+    max-width: 10%;
+  }
+}
+
 .text-container img {
   max-width: 500px;
   height: auto;
@@ -15415,8 +15446,6 @@ a.anchor {
 }
 
 @keyframes hd-move {
-  /* Use translateY/scale/rotate for GPU-friendly, smooth motion. Values assume `top` is the landing reference (0).
-     translateY negative = above the O; translateY 0 = top of the O; translateY positive = below the O. */
   0% {
     transform: translateX(-50%) translateY(-260px) scaleY(2.1) scaleX(0.35) rotate(-2deg);
     opacity: 1;
@@ -15466,6 +15495,50 @@ a.anchor {
   100% {
     transform: translateX(-50%) translateY(-260px) scaleY(2.1) scaleX(0.35) rotate(-2deg);
     opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #hd-container {
+    height: auto;
+    max-width: 100%;
+    justify-content: center !important;
+  }
+
+  .hack-drop-wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: center !important;
+    overflow: visible;
+  }
+
+  .text-container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* disable drop animation */
+  .hd-o .drop {
+    display: none;
+  }
+
+  .hd-text {
+    position: static;
+    transform: none;
+    font-size: clamp(42px, 12vw, 84px);
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center !important;
+    margin: 0 auto;
+  }
+
+  .hd-o {
+    display: inline;
+    padding: 0;
   }
 }
 
@@ -15524,15 +15597,15 @@ a.anchor {
 }
 
 .hack25-faq {
-  background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
+  background: #FFF;
+  box-shadow: none;
+  border-radius: 8px;
 }
 
 .hack25-faq .card {
   border: none;
   background: none;
-  border-bottom: 1px dashed #CEE1F8;
+  border-bottom: 2px solid #edd268;
 }
 
 .hack25-faq .card .card-header {
@@ -15541,26 +15614,26 @@ a.anchor {
   background: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
+  -o-transition: all 0s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
 .hack25-faq .card .card-header:hover {
-  background: rgba(230, 225, 206, 1.0);
+  background: rgba(237, 210, 104, 0.15);
   padding-left: 10px;
 }
 
 .hack25-faq .card .card-header .hack25-faq-title {
   width: 100%;
   text-align: left;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Alata', sans-serif;
   padding: 0px;
   padding-left: 30px;
   padding-right: 30px;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 1px;
-  color: #3B566E;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #2A3E55;
   text-decoration: none !important;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -15581,20 +15654,20 @@ a.anchor {
   -moz-border-radius: 100px;
   border-radius: 100px;
   text-align: center;
-  background: #9C606D;
+  background: #e18763;
   color: #fff;
   font-size: 12px;
   margin-right: 20px;
 }
 
-.hack25-faq .card .card-body {
+.hack25-faq .card .collapse .card-body {
   padding: 30px;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Alata', sans-serif;
   padding-left: 35px;
   padding-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
-  color: #6F8BA4;
+  color: #2A3E55;
   line-height: 28px;
   letter-spacing: 1px;
   border-top: 1px solid #F3F8FF;
@@ -15737,12 +15810,12 @@ a.anchor {
 }
 
 .hack25-footer .hack25-footer-widget ul li a:hover {
-  color: #9C606D;
+  color: #da6255;
   font-size: 20px;
 }
 
 .hack25-footer .hack25-footer-widget ul li a:hover span {
-  color: #2A3E55;
+  color: #da6255;
   font-size: 20px;
 }
 
